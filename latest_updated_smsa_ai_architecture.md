@@ -37,10 +37,10 @@ The SMSA Express AI Assistant follows a layered microservices architecture with 
 |-------|------------|----------------|
 | Client | Web App, Mobile App | User interface and interaction |
 | Gateway | API Gateway | Request routing, authentication, rate limiting |
-| Orchestration | Master Agent, Intent Router, Context Assembly | Request classification and agent coordination |
+| Master Agent| Intent Router(classification), AI orchestration, Context Assembly |
 | Agents | Tracking, Rates, Retail Centres, FAQ | Domain-specific request handling |
-| Memory | Vector DB, MongoDB | Conversation history and semantic search |
-| External | SMSA APIs, Deepseek AI | Business data and AI capabilities |
+| Memory | Vector DB, MongoDB, S3 bucket(file-server) | Conversation history and semantic search |
+| External | 4-SMSA APIs, Deepseek AI/Vision | Business data and AI capabilities|
 
 ### 1.2 Design Principles
 
@@ -66,22 +66,11 @@ The web application provides a browser-based interface for customers to interact
 - Conversation history access
 - Multi-language support (Arabic/English)
 
-**Technology Stack**:
-- Frontend Framework: React/Vue.js
-- Real-time Communication: SSE for streaming responses
-- File Handling: Direct S3 upload with presigned URLs
-
 ### 2.2 Mobile Application
 
 **App Name**: SMSA Mobile
 
 Native mobile application providing the same AI assistant capabilities optimized for mobile devices.
-
-**Features**:
-- Push notifications for shipment updates
-- Camera integration for document capture
-- Offline conversation caching
-- Biometric authentication
 
 ### 2.3 Technology Stack
 
@@ -98,18 +87,16 @@ Native mobile application providing the same AI assistant capabilities optimized
 |-----------|-----------|---------|---------|
 | Runtime | Node.js | 20 LTS | JavaScript runtime |
 | Framework | Express.js | 4.18.x | HTTP server framework |
-| Authentication | jsonwebtoken | 9.x | JWT validation |
+| Authentication | - | 9.x | JWT/Bearer Token validation |
 | Rate Limiting | express-rate-limit | 7.x | Request throttling |
-| HTTP Client | Axios | 1.6.x | SMSA API integration |
-| Retry Logic | axios-retry | 4.x | Automatic retry on failures |
 
-### **Orchestration Layer**
+### **Master Agent Layer**
 | Component | Technology | Version | Purpose |
 |-----------|-----------|---------|---------|
 | Agent Framework | LangGraph | 0.1.x | Stateful agent workflows |
 | Runtime | Python | 3.12 | Agent execution environment |
 | API Server | FastAPI | 0.109.x | HTTP endpoints for agents |
-| LLM Integration | DeepSeek SDK | Latest | AI model access |
+| LLM Integration | DeepSeek SDK/Vision | Latest | AI model access |
 | Prompt Management | Custom Templates | - | Controlled AI responses |
 
 ### **Data Layer**
@@ -117,13 +104,13 @@ Native mobile application providing the same AI assistant capabilities optimized
 |-----------|-----------|---------|---------|
 | Primary Database | MongoDB | 6.x | Conversations, users, messages |
 | Vector Database | Qdrant | 1.7.x | Semantic search, embeddings |
-| Object Storage | AWS S3 | - | Images, conversation JSONs |
+| Object Storage | S3 Bucket | - | Images, conversation JSONs |
 
 ### **External Services**
 | Service | Provider | Purpose |
 |---------|----------|---------|
 | Vision AI | DeepSeek Vision | AWB extraction from images |
-| Chat LLM | DeepSeek Chat V2.5 | Complex reasoning, response generation |
+| Deepseek AI | version? | Complex reasoning, response generation |
 | Embeddings | DeepSeek Embeddings | Text vectorization for RAG |
 | SMSA APIs | Internal | Tracking, Rates, Centers, FAQ |
 
@@ -190,7 +177,6 @@ The Master Agent is the brain of the system, responsible for understanding user 
 ├── RATES         → Rates Agent
 ├── LOCATIONS     → Retail Centres Agent
 ├── FAQ           → FAQ Agent
-├── COMPLEX       → Deepseek AI (Complex Reasoning)
 └── AMBIGUOUS     → Clarification Flow
 ```
 
@@ -199,7 +185,7 @@ The Master Agent is the brain of the system, responsible for understanding user 
 The system implements controlled AI response generation through two primary strategies:
 
 **Chain-of-Thought (COT)**:
-- Used for complex, multi-step queries
+- Used for multi-step queries
 - Explicit reasoning steps before final answer
 - Better accuracy for calculations and logical deductions
 
@@ -220,7 +206,6 @@ Central coordination component managing:
 
 **Responsibilities**:
 - Retrieve relevant conversation history from MongoDB
-- Fetch user profile and preferences
 - Coordinate file context from S3
 - Build complete context object for agent processing
 
@@ -262,11 +247,10 @@ Each specialized agent is designed to handle a specific domain of customer inqui
 - Track shipments by AWB number
 - Provide delivery status and ETA
 - Show shipment history and events
-- Handle tracking for multiple shipments
 
 **Data Sources**:
 - SMSA Tracking APIs
-- Historical tracking data (cached)
+- Historical tracking data
 
 **Example Intents**:
 - "Where is my package?"
@@ -278,19 +262,14 @@ Each specialized agent is designed to handle a specific domain of customer inqui
 **Purpose**: Provide shipping rate quotations
 
 **Capabilities**:
-- Calculate shipping rates based on origin/destination
-- Compare service levels (Express, Economy, etc.)
-- Apply promotional discounts
-- Handle weight/dimension-based pricing
+- Calculate shipping rates based on origin/destination/weight
 
 **Data Sources**:
 - SMSA Rates API
 - Pricing rules engine
-- Promotional offers database
 
 **Example Intents**:
 - "How much to ship to Dubai?"
-- "Compare express vs economy rates"
 - "What's the rate for a 5kg package?"
 
 ### 5.3 Retail Centres Agent
@@ -301,7 +280,6 @@ Each specialized agent is designed to handle a specific domain of customer inqui
 - Find nearest retail centre
 - Provide operating hours
 - List available services per location
-- Handle appointment scheduling queries
 
 **Data Sources**:
 - SMSA Location APIs
@@ -338,18 +316,17 @@ Each specialized agent is designed to handle a specific domain of customer inqui
 
 ### 6.1 Vector Database
 
-**Purpose**: Semantic search and retrieval for contextual understanding
+**Purpose**: Semantic search and retrieval for FAQ/knowledge understanding
 
 **Contents**:
 | Data Type | Description |
 |-----------|-------------|
-| Conversation Embeddings | Vector representations of past conversations |
+| Embeddings | Vector representations of text |
 | FAQ Embeddings | Knowledge base articles as vectors |
 | Document Embeddings | Uploaded document content |
 
 **Capabilities**:
 - Similarity search for relevant context
-- Historical conversation retrieval
 - Knowledge base querying
 
 **Integration**: Connected to RAG Pipeline for FAQ Agent
@@ -397,24 +374,10 @@ Each specialized agent is designed to handle a specific domain of customer inqui
 
 **Integration Pattern**: RESTful API with resilience patterns
 
-**Resilience Features**:
-
-| Pattern | Implementation |
-|---------|----------------|
-| Circuit Breaker | Prevent cascade failures when SMSA APIs are down |
-| Retry Logic | Exponential backoff for transient failures |
-| Cache Layer | Reduce load and improve response times |
-
 **API Endpoints**:
 - Tracking API: `/v1/tracking/{awb}`
 - Rates API: `/v1/rates/calculate`
 - Locations API: `/v1/retail-centres`
-- Customer API: `/v1/customers/{id}`
-
-**Cache Strategy**:
-- Tracking data: 5-minute TTL
-- Rates: 1-hour TTL
-- Locations: 24-hour TTL
 
 ### 7.2 Deepseek AI Integration
 
@@ -422,13 +385,13 @@ Each specialized agent is designed to handle a specific domain of customer inqui
 
 | Service | Purpose |
 |---------|---------|
-| Deepseek AI API | Complex reasoning and response generation |
+| Deepseek AI API | intent classification and response generation |
 | Deepseek Embeddings | Text vectorization for RAG pipeline |
-| Deepseek Vision API | Image understanding for document processing |
+| Deepseek Vision API | Image understanding for document processing-AWB extraction| Max file size MB?/file-Type?
 
 **API Configuration**:
-- Temperature: 0.7 (balanced creativity/accuracy)
-- Max tokens: 2048
+- Temperature: 0.0 
+- Max tokens: 500
 - Streaming: Enabled for real-time responses
 
 ---
@@ -439,9 +402,11 @@ Each specialized agent is designed to handle a specific domain of customer inqui
 
 **Supported Files**:
 - SAWB documents (PDF, Image)
-- Supporting documents
-- Proof of delivery images
 
+**Processing Flow**:
+```
+Image Upload → S3 Storage → Vision API → Extracted Data → Orchestrator
+```
 **Upload Flow**:
 1. Client requests presigned URL from API Gateway
 2. Direct upload to S3 bucket
@@ -463,20 +428,6 @@ smsa-ai-storage/
     └── {file_id}/
         └── extracted_data.json
 ```
-
-### 8.3 Deepseek Vision API
-
-**Capabilities**:
-- Extract text from SAWB images
-- Read handwritten notes
-- Verify document authenticity
-- Extract structured data from forms
-
-**Processing Flow**:
-```
-Image Upload → S3 Storage → Vision API → Extracted Data → Orchestrator
-```
-
 ---
 
 ## 9. Response Delivery
