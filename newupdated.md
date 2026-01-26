@@ -926,19 +926,9 @@ k6 run scripts/load-test.js --vus 100 --duration 5m
 
 ---
 
-## License
 
-Proprietary - SMSA Express © 2026
 
 ---
 
-## Support
-
-For technical issues, contact:
-- **Email:** ai-support@smsaexpress.com
-- **Slack:** #ai-assistant-support
-- **On-call:** PagerDuty escalation
-
----
 
 **Last Updated:** January 26, 2026
