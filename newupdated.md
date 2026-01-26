@@ -40,7 +40,7 @@ An intelligent conversational assistant that integrates with SMSA Express's exis
                          ▼
 ┌─────────────────────────────────────────────────────────────────┐
 │                       API GATEWAY                                │
-│  Node.js + Express | JWT Auth | Rate Limiting | Load Balancing  │
+│  Node.js + Express | JWT Auth | Rate Limiting  │
 └────────────────────────┬────────────────────────────────────────┘
                          │
                          ▼
@@ -932,3 +932,4 @@ k6 run scripts/load-test.js --vus 100 --duration 5m
 
 
 **Last Updated:** January 26, 2026
+
