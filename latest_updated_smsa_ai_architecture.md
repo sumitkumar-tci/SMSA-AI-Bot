@@ -448,7 +448,6 @@ smsa-ai-storage/
 
 **Benefits**:
 - Real-time token streaming
-- Reduced perceived latency
 - Progressive response display
 - Connection efficiency
 
@@ -461,7 +460,7 @@ Agent Response → Response Generator → SSE Stream → Client
 
 ## 10. Agent Instructions Framework
 
-### 10.1 Prompt Engineering Instructions
+### 10.1 Prompt/Context Engineering Instructions
 
 Each agent receives carefully crafted instructions defining:
 
@@ -480,7 +479,6 @@ Pre-processing validations applied to all agent interactions:
 - Input sanitization
 - Intent validation
 - Parameter extraction and verification
-- Security checks
 - Rate limit verification
 
 ### 10.3 Framework Structure
@@ -513,25 +511,14 @@ All requests and responses are logged with:
 - Intent classification
 - Agent used
 - Response time
-- Token usage
 
 ### 11.2 Metrics Dashboard
 
 | Metric | Description | Target |
 |--------|-------------|--------|
-| Token Usage per Request | Monitor AI cost and efficiency | < 1000 tokens avg |
+| Token Usage per Request | Monitor AI cost and efficiency | < 1000 tokens avg? |
 | Latency per Agent | Response time by agent type | < 2s p95 |
-| Hallucination Detection | Accuracy and factual correctness | < 1% hallucination rate |
-| User Satisfaction Scores | Feedback-based quality metric | > 4.5/5 rating |
-
-### 11.3 Alerting
-
-Automated alerts for:
-- High error rates
-- Increased latency
-- API integration failures
-- Unusual token consumption
-- Hallucination detection triggers
+| Hallucination Detection | Accuracy and factual correctness | < 1% hallucination rate? |
 
 ---
 
@@ -584,27 +571,20 @@ Automated alerts for:
 ### 13.1 Authentication & Authorization
 
 - JWT-based authentication
-- Role-based access control (RBAC)
-- API key management for service-to-service communication
-- Session management with secure tokens
 
 ### 13.2 Data Protection
 
 - Encryption at rest for all databases
-- TLS 1.3 for all communications
-- PII masking in logs
-- Data retention policies compliance
 
 ### 13.3 API Security
 
 - Rate limiting per user and IP
 - Input validation and sanitization
 - SQL injection prevention
-- XSS protection
 
 ---
 
-## 14. Scalability & Resilience
+## 14. Scalability & Resilience - NOT IN CURRENT SCOPE
 
 ### 14.1 Horizontal Scaling
 
@@ -635,46 +615,12 @@ Automated alerts for:
 
 | Layer | Technology |
 |-------|------------|
-| Frontend | React/Vue.js, SSE |
-| API Gateway | Kong/AWS API Gateway |
+| Frontend | Next.js, SSE |
+| API Gateway | API Gateway |
 | Backend | Python, FastAPI |
 | AI/ML | Deepseek AI (Chat, Embeddings, Vision) |
 | Databases | MongoDB, Vector DB(Qdrant |
 | Storage | AWS S3 |
-| Monitoring | Prometheus, Grafana, ELK Stack |
 | Container | Docker, Kubernetes |
-
----
-
-## Appendix B: API Reference
-
-### Intent Classification Endpoint
-
-```
-POST /api/v1/chat
-Content-Type: application/json
-
-{
-  "conversation_id": "string",
-  "message": "string",
-  "attachments": ["string"]
-}
-
-Response: SSE Stream
-```
-
-### File Upload Endpoint
-
-```
-POST /api/v1/files/upload
-Content-Type: multipart/form-data
-
-Response:
-{
-  "file_id": "string",
-  "upload_url": "string",
-  "status": "success"
-}
-```
 
 ---
