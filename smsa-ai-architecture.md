@@ -83,6 +83,52 @@ Native mobile application providing the same AI assistant capabilities optimized
 - Offline conversation caching
 - Biometric authentication
 
+### 2.3 Technology Stack
+
+### **Frontend Layer**
+| Component | Technology | Version | Purpose |
+|-----------|-----------|---------|---------|
+| Web App | Next.js | 14.x | Server-side rendering, SEO optimization |
+| UI Framework | Tailwind CSS | 3.x | Responsive styling |
+| Mobile App | React Native | 0.73.x | Cross-platform mobile interface |
+| Real-time | EventSource API | Native | SSE streaming client |
+
+### **API Gateway Layer**
+| Component | Technology | Version | Purpose |
+|-----------|-----------|---------|---------|
+| Runtime | Node.js | 20 LTS | JavaScript runtime |
+| Framework | Express.js | 4.18.x | HTTP server framework |
+| Authentication | jsonwebtoken | 9.x | JWT validation |
+| Rate Limiting | express-rate-limit | 7.x | Request throttling |
+| HTTP Client | Axios | 1.6.x | SMSA API integration |
+| Retry Logic | axios-retry | 4.x | Automatic retry on failures |
+
+### **Orchestration Layer**
+| Component | Technology | Version | Purpose |
+|-----------|-----------|---------|---------|
+| Agent Framework | LangGraph | 0.1.x | Stateful agent workflows |
+| Runtime | Python | 3.12 | Agent execution environment |
+| API Server | FastAPI | 0.109.x | HTTP endpoints for agents |
+| LLM Integration | DeepSeek SDK | Latest | AI model access |
+| Prompt Management | Custom Templates | - | Controlled AI responses |
+
+### **Data Layer**
+| Component | Technology | Version | Purpose |
+|-----------|-----------|---------|---------|
+| Primary Database | MongoDB | 6.x | Conversations, users, messages |
+| Vector Database | Qdrant | 1.7.x | Semantic search, embeddings |
+| Object Storage | AWS S3 | - | Images, conversation JSONs |
+
+### **External Services**
+| Service | Provider | Purpose |
+|---------|----------|---------|
+| Vision AI | DeepSeek Vision | AWB extraction from images |
+| Chat LLM | DeepSeek Chat V2.5 | Complex reasoning, response generation |
+| Embeddings | DeepSeek Embeddings | Text vectorization for RAG |
+| SMSA APIs | Internal | Tracking, Rates, Centers, FAQ |
+
+---
+
 ---
 
 ## 3. API Gateway
