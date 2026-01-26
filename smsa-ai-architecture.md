@@ -672,7 +672,7 @@ Automated alerts for:
 | API Gateway | Kong/AWS API Gateway |
 | Backend | Python, FastAPI |
 | AI/ML | Deepseek AI (Chat, Embeddings, Vision) |
-| Databases | MongoDB, Vector DB (Pinecone/Weaviate) |
+| Databases | MongoDB, Vector DB(Qdrant |
 | Storage | AWS S3 |
 | Monitoring | Prometheus, Grafana, ELK Stack |
 | Container | Docker, Kubernetes |
@@ -711,7 +711,3 @@ Response:
 ```
 
 ---
-
-*Document Version: 1.0*  
-*Last Updated: January 2025*  
-*Author: SMSA Express AI Team*
