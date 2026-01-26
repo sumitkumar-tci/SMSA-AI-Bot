@@ -52,7 +52,7 @@ An intelligent conversational assistant that integrates with SMSA Express's exis
 │  └────────────────────┬─────────────────────────────────────┘  │
 │                       ▼                                          │
 │  ┌──────────────────────────────────────────────────────────┐  │
-│  │  AI Orchestrator                                          │  │
+│  │  AI Orchestrator(Langraph)                              │  │
 │  │  • Intent Classification                                  │  │
 │  │  • Routing Decision (API vs LLM)                         │  │
 │  │  • Response Coordination                                  │  │
@@ -123,7 +123,7 @@ User sees response
 |-----------|-----------|---------|---------|
 | Web App | Next.js | 14.x | Server-side rendering, SEO optimization |
 | UI Framework | Tailwind CSS | 3.x | Responsive styling |
-| Component Library | Radix UI | Latest | Accessible UI components |
+| Component Library(optional) | Radix UI | Latest | Accessible UI components 
 | Mobile App | React Native | 0.73.x | Cross-platform mobile interface |
 | Real-time | EventSource API | Native | SSE streaming client |
 
@@ -141,7 +141,7 @@ User sees response
 | Component | Technology | Version | Purpose |
 |-----------|-----------|---------|---------|
 | Agent Framework | LangGraph | 0.1.x | Stateful agent workflows |
-| Runtime | Python | 3.11 | Agent execution environment |
+| Runtime | Python | 3.12 | Agent execution environment |
 | API Server | FastAPI | 0.109.x | HTTP endpoints for agents |
 | LLM Integration | DeepSeek SDK | Latest | AI model access |
 | Prompt Management | Custom Templates | - | Controlled AI responses |
@@ -151,9 +151,7 @@ User sees response
 |-----------|-----------|---------|---------|
 | Primary Database | MongoDB | 6.x | Conversations, users, messages |
 | Vector Database | Qdrant | 1.7.x | Semantic search, embeddings |
-| Cache | Redis | 7.2.x | Session storage, API cache |
 | Object Storage | AWS S3 | - | Images, conversation JSONs |
-| Message Queue | Apache Kafka | 3.6.x | Async event processing |
 
 ### **External Services**
 | Service | Provider | Purpose |
@@ -966,5 +964,6 @@ k6 run scripts/load-test.js --vus 100 --duration 5m
 
 
 **Last Updated:** January 26, 2026
+
 
 
