@@ -49,7 +49,7 @@ The SMSA Express AI Assistant follows a layered microservices architecture:
 ┌─────────────────────────────────────────────────────────────────────────────────┐
 │                              API GATEWAY                                         │
 │  ┌─────────────────────────────────────────────────────────────────────────┐    │
-│  │                     Node.js + Express (Port 3000)                       │    │
+│  │                     Node.js + Express                                  │    │
 │  │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐    │    │
 │  │  │    Auth     │  │    Rate     │  │   Request   │  │     SSL     │    │    │
 │  │  │   (JWT)     │  │  Limiting   │  │   Routing   │  │ Termination │    │    │
