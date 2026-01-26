@@ -676,14 +676,15 @@ All requests and responses are logged with:
 ```
 1. User sends message via Web/Mobile App
 2. API Gateway authenticates and routes request
-3. Request logged, context assembled from MongoDB
+3. Request logged
 4. Intent Classification Router analyzes message
-5. AI Orchestrator selects appropriate agent(s)
-6. Agent processes request with SMSA API data
-7. Response Generator formats output
-8. SSE Stream delivers response to client
-9. Conversation stored in MongoDB
-10. Metrics logged for monitoring
+5. context assembled from MongoDB
+6. AI Orchestrator selects appropriate agent(s)
+7. Agent processes request with SMSA API data
+8. Response Generator formats output
+9. SSE Stream delivers response to client
+10. Conversation stored in MongoDB
+11. Metrics logged for monitoring
 ```
 
 ### 13.2 Document Processing Flow
@@ -705,8 +706,8 @@ All requests and responses are logged with:
 1. FAQ intent detected
 2. User query embedded via Deepseek Embeddings
 3. Vector DB searched for similar content
-4. Top-k relevant documents retrieved
-5. Context assembled with retrieved documents
+4. Top-k relevant infomation retrieved
+5. Context assembled with retrieved information
 6. FAQ Agent generates informed response
 7. Response validated and delivered
 ```
