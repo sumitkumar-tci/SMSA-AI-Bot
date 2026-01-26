@@ -127,6 +127,22 @@ Native mobile application providing the same AI assistant capabilities optimized
 | Embeddings | DeepSeek Embeddings | Text vectorization for RAG |
 | SMSA APIs | Internal | Tracking, Rates, Centers, FAQ |
 
+```
+User Request
+    ↓
+Next.js Frontend (ai.smsaexpress.com)
+    ↓ POST /api/chat
+Node.js API Gateway (Port 3000)
+    ↓ HTTP POST http://orchestrator:8000/api-name
+Python Orchestrator (Port 8000)
+    ↓ Does AI magic
+Python sends response back via SSE
+    ↓
+Node.js streams to user
+    ↓
+User sees response
+```
+
 ---
 
 ---
