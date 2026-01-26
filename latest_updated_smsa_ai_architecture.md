@@ -500,7 +500,7 @@ Agent Instructions Framework
 
 ---
 
-## 11. Monitoring & Observability
+## 11. Monitoring & Observability - WORK IN PROGRESS/WE WILL KEEP IT SIMPLE FOR PHASE 1   
 
 ### 11.1 Centralized Logging
 
