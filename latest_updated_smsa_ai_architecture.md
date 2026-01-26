@@ -31,7 +31,7 @@ The architecture leverages Deepseek AI for natural language understanding and ge
 
 ### 1.1 High-Level Architecture
 
-The SMSA Express AI Assistant follows a layered microservices architecture with the following primary components:
+The SMSA Express AI Assistant follows a multi- layered architecture with the following primary components:
 
 | Layer | Components | Responsibility |
 |-------|------------|----------------|
