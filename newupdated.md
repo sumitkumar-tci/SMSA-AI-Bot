@@ -79,7 +79,41 @@ An intelligent conversational assistant that integrates with SMSA Express's exis
 │  SMSA APIs (4 endpoints) | DeepSeek Vision | DeepSeek Chat      │
 └─────────────────────────────────────────────────────────────────┘
 ```
-
+```
+User Request
+    ↓
+Next.js Frontend (ai.smsaexpress.com)
+    ↓ POST /api/chat
+Node.js API Gateway (Port 3000)
+    ↓ HTTP POST http://orchestrator:8000/execute
+Python Orchestrator (Port 8000)
+    ↓ Does AI magic
+Python sends response back via SSE
+    ↓
+Node.js streams to user
+    ↓
+User sees response
+```
+```
+┌────────────────┐
+│   Next.js      │  Frontend (React UI)
+│   (Port 3001)  │  Users see chat interface
+└───────┬────────┘
+        │ fetch('/api/chat')
+        ▼
+┌────────────────┐
+│   Node.js      │  API Gateway
+│   Express      │  JWT validation, routing
+│   (Port 3000)  │
+└───────┬────────┘
+        │ HTTP POST
+        ▼
+┌────────────────┐
+│   Python       │  AI Orchestrator
+│   FastAPI      │  LangGraph, DeepSeek, agents
+│   (Port 8000)  │
+└────────────────┘
+```
 ---
 
 ## Technology Stack
@@ -932,4 +966,5 @@ k6 run scripts/load-test.js --vus 100 --duration 5m
 
 
 **Last Updated:** January 26, 2026
+
 
