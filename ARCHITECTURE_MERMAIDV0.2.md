@@ -1,6 +1,6 @@
 # JAK Delivery AI Shopping Agent - Production System Architecture
 
-```mermaid
+```
 graph TB
     subgraph "CLIENT LAYER"
         WEB[JAK Web Application<br/>Next.js]
@@ -15,15 +15,15 @@ graph TB
     subgraph "AI ENGINE - FastAPI"
         ORCHESTRATOR[Conversation Orchestrator<br/>Multi-turn State Management<br/>User Context Assembly]
         
-        SHOPPING[Shopping Agent<br/>Query Understanding<br/>Merchant Recommendation<br/>Shopping Link Generation<br/>Refinement Loop]
+        SHOPPING[Shopping Agent<br/>Intent Understanding<br/>Live Search Execution<br/>Merchant Filtering<br/>Refinement Loop]
         
         PREF_SVC[Preference Service<br/>Attribute Extraction<br/>Weighted Scoring<br/>Demographic 5% Preference 80% Behavioral 15%<br/>Adaptive Question Count<br/>Negative Preference Learning]
         
         USER_PROFILE[User Profile Service<br/>Name Retrieval<br/>Registration Status Check<br/>Personalized Greeting Generation]
         
-        HISTORY_ANALYZER[Order History Analyzer<br/>SQL Aggregation Patterns<br/>Category Frequency Analysis<br/>Brand Affinity Calculation<br/>Purchase Behavior Extraction]
+        LOGISTICS_ANALYZER[Logistics Analyzer<br/>Origin Affinity Calculation<br/>Shipping Weight Estimation<br/>Avg. Shipment Value<br/>*No Product History*]
         
-        MERCHANT_MATCHER[Merchant Matching Engine<br/>Category to Merchant Mapping<br/>Origin Filtering USA Turkey<br/>Preference Based Ranking]
+        MERCHANT_MATCHER[Merchant Whitelist Engine<br/>Approved Domain Validation<br/>Origin Filtering USA/Turkey<br/>Security Check]
         
         SHIPPING_GUIDANCE[Shipping Guidance Service<br/>Cost Estimation<br/>Timeline Calculation<br/>Restriction Validation<br/>JAK Address Instructions]
         
@@ -31,26 +31,26 @@ graph TB
     end
 
     subgraph "DATA INGESTION LAYER"
-        ETL[Nightly ETL Job<br/>Reads JAK Production DB<br/>Extracts User Purchase Patterns<br/>Builds Preference Summaries<br/>Incremental Updates Only]
+        ETL[Nightly ETL Job<br/>Reads JAK Production DB<br/>Extracts Origin/Weight Patterns<br/>Builds Logistics Summaries<br/>Incremental Updates Only]
     end
 
     subgraph "STORAGE LAYER"
         PREF_DB[(PostgreSQL<br/>User Preferences<br/>Conversation History<br/>Preference Learning State)]
         
-        SUMMARY_DB[(PostgreSQL<br/>Order Summaries<br/>Pre-computed User Profiles<br/>Category Aggregates<br/>Brand Frequency)]
+        SUMMARY_DB[(PostgreSQL<br/>Logistics Summaries<br/>Pre-computed Profiles<br/>Origin Frequency<br/>Spending Tiers)]
         
-        MERCHANT_DB[(PostgreSQL<br/>Merchant Catalog<br/>Category Mappings<br/>Origin Availability<br/>Merchant URLs<br/>Shipping Compatible Flags]
+        MERCHANT_DB[(PostgreSQL<br/>Merchant Whitelist<br/>Category Mappings<br/>Origin Availability<br/>Merchant URLs<br/>Shipping Compatible Flags)]
         
-        JAK_PROD[(JAK Production DB<br/>15 Years Order History<br/>User Registration<br/>Shipment Records<br/>Read-Only Access)]
+        JAK_PROD[(JAK Production DB<br/>15 Years Logistics History<br/>User Registration<br/>Shipment Records<br/>Read-Only Access)]
         
-        CACHE[(Redis<br/>Active User Preferences<br/>Session State<br/>Merchant Recommendations)]
+        CACHE[(Redis<br/>Active User Preferences<br/>Session State<br/>Search Results Cache)]
         
         ANALYTICS_DB[(PostgreSQL<br/>Event Logs<br/>Recommendation Clicks<br/>User Interactions<br/>Satisfaction Scores<br/>Refinement Patterns)]
     end
 
     subgraph "EXTERNAL SERVICES"
         LLM[LLM Service<br/>Qwen DeepSeek<br/>Query Parsing<br/>Response Generation<br/>Arabic English]
-        SEARCH_API[Search Enrichment Service<br/>OpenAI / Google Search API<br/>Product & Price Snippets<br/>No Direct Merchant API]
+        SEARCH_TOOL[Real-Time Search Tool<br/>Google / Tavily API<br/>Live Product Pricing<br/>Stock Availability<br/>Web Browsing]
     end
 
     %% Client Flow
@@ -61,25 +61,25 @@ graph TB
     ORCHESTRATOR --> SHOPPING
     ORCHESTRATOR --> PREF_SVC
     ORCHESTRATOR --> USER_PROFILE
-    ORCHESTRATOR --> HISTORY_ANALYZER
+    ORCHESTRATOR --> LOGISTICS_ANALYZER
     ORCHESTRATOR --> SHIPPING_GUIDANCE
     ORCHESTRATOR --> ANALYTICS
     SHOPPING --> PREF_SVC
     SHOPPING --> USER_PROFILE
-    SHOPPING --> HISTORY_ANALYZER
+    SHOPPING --> LOGISTICS_ANALYZER
     SHOPPING --> MERCHANT_MATCHER
     SHOPPING --> SHIPPING_GUIDANCE
     SHOPPING --> ANALYTICS
     MERCHANT_MATCHER --> ANALYTICS
-    PREF_SVC --> HISTORY_ANALYZER
+    PREF_SVC --> LOGISTICS_ANALYZER
     
     %% Data Access Patterns
     PREF_SVC --> PREF_DB
     PREF_SVC --> SUMMARY_DB
     PREF_SVC --> CACHE
-    HISTORY_ANALYZER --> SUMMARY_DB
-    HISTORY_ANALYZER --> JAK_PROD
-    HISTORY_ANALYZER --> CACHE
+    LOGISTICS_ANALYZER --> SUMMARY_DB
+    LOGISTICS_ANALYZER --> JAK_PROD
+    LOGISTICS_ANALYZER --> CACHE
     MERCHANT_MATCHER --> MERCHANT_DB
     MERCHANT_MATCHER --> CACHE
     ORCHESTRATOR --> PREF_DB
@@ -97,11 +97,11 @@ graph TB
     SHOPPING --> LLM
     ORCHESTRATOR --> LLM
     PREF_SVC --> LLM
-    HISTORY_ANALYZER --> LLM
+    LOGISTICS_ANALYZER --> LLM
     USER_PROFILE --> LLM
     SHIPPING_GUIDANCE --> LLM
-    SHOPPING --> SEARCH_API
-    MERCHANT_MATCHER --> SEARCH_API
+    SHOPPING --> SEARCH_TOOL
+    MERCHANT_MATCHER --> SEARCH_TOOL
     
     %% Background Processing
     ETL --> JAK_PROD
@@ -115,7 +115,7 @@ graph TB
     style SHOPPING fill:#e1ffe1
     style PREF_SVC fill:#ffe1e1
     style USER_PROFILE fill:#ffe1e1
-    style HISTORY_ANALYZER fill:#ffe1f5
+    style LOGISTICS_ANALYZER fill:#ffe1f5
     style MERCHANT_MATCHER fill:#e1fff5
     style SHIPPING_GUIDANCE fill:#ffe1e1
     style ANALYTICS fill:#e1e1ff
