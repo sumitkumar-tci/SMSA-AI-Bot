@@ -89,7 +89,7 @@ graph TB
 
 **Process:**
 ```
-JAK Production DB (15 Years History)
+JAK Production DB (5 Years History)
     │
     ├─ Orders Table (Partitioned by Year)
     ├─ Shipments Table
@@ -126,7 +126,7 @@ JAK Production DB (15 Years History)
 ```
 
 **Why This Design:**
-- JAK Production DB has 15 years of data - cannot query in real-time
+- JAK Production DB has 5 years of data - cannot query in real-time
 - ETL pre-computes summaries for instant access during conversations
 - Incremental updates keep data fresh without full scans
 - Read-only access to production DB protects operational systems
@@ -165,7 +165,7 @@ CREATE TABLE conversation_history (
 
 ### 3. Preference Engine Logic
 
-**Attribute Weighting (BRD Section 7.2):**
+**Attribute Weighting:**
 ```
 User Query: "I need Nike shoes"
     │
@@ -223,7 +223,7 @@ User Query: "I need Nike shoes"
     │   └─ Combine: explicit query + implicit preferences
     │       → "Nike shoes size 42 black white USA origin budget 50-100"
     │
-    ├─ Call Open Search API
+    ├─ Call Internal Data Source
     │   ├─ Filter: origin=USA
     │   ├─ Filter: brand=Nike
     │   ├─ Filter: category=shoes
