@@ -789,38 +789,39 @@ CREATE TABLE success_metrics (
 
 ```mermaid
 graph LR
-    A[User visits JAK website] --> B[Discovery & Engagement<br/>Shopping Agent Widget visible]
-    
-    %% Login / Registration Paths
+    A[User visits JAK website] --> B[Discovery and engagement, shopping agent widget visible]
+
     B --> C{User state}
-    C -->|Logged in<br/>Existing user| D[Check Order & Shipment History<br/>via Summaries]
-    C -->|Logged in<br/>No history| E[Explain JAK briefly<br/>Ask initial questions]
-    C -->|New user<br/>No account| F[Encourage registration<br/>Or continue as guest<br/>with minimal data]
-    
-    %% All paths converge into Preferences
-    D --> G[Preference Understanding<br/>Preference Service + History Analyzer]
-    E --> G
-    F --> G
-    
-    %% Shopping Guidance & Recommendations
-    G --> H[Shopping Guidance & Recommendations<br/>Shopping Agent + Merchant Matcher]
-    H --> I[Curated Merchant Links<br/>with Match Scores]
-    
-    %% Purchase & Shipping Enablement (outside JAK checkout)
-    I --> J[User shops externally<br/>using JAK virtual address]
-    
-    %% Shipment Tracking & Pickup (handled by existing logistics systems)
-    J --> K[Shipment Created in JAK Systems]
-    K --> L[Tracking & Pickup Support<br/>(Existing JAK/SMSA flows)]
-    
-    %% Learning & Experience Improvement
-    L --> M[Learning Loop<br/>Write outcomes back to<br/>Preferences & Summaries]
-    
+
+    C --> D[Logged in user with history]
+    C --> E[Logged in user with no history]
+    C --> F[New user or guest]
+
+    D --> D1[Check order and shipment history via summaries]
+    E --> E1[Explain JAK briefly and ask initial questions]
+    F --> F1[Encourage registration or continue as guest with minimal data]
+
+    D1 --> G[Preference understanding via preference service and history analyzer]
+    E1 --> G
+    F1 --> G
+
+    G --> H[Shopping guidance and recommendations using shopping agent and merchant matcher]
+
+    H --> I[Curated merchant links with match scores]
+
+    I --> J[User shops externally using JAK virtual address]
+
+    J --> K[Shipment created in JAK systems]
+
+    K --> L[Tracking and pickup support through existing JAK and SMSA flows]
+
+    L --> M[Learning loop, outcomes written back to preferences and summaries]
+
     style B fill:#e1f5ff
     style G fill:#ffe1e1
     style H fill:#e1ffe1
     style I fill:#e1ffe1
-    style D fill:#e1e1ff
+    style D1 fill:#e1e1ff
     style M fill:#f5e1ff
 ```
 
