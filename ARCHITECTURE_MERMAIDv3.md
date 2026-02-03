@@ -3,54 +3,54 @@
 ```mermaid
 graph TB
     subgraph "CLIENT LAYER"
-        WEB[JAK Web Application<br/>Next.js]
-        WIDGET[Shopping Agent Widget<br/>Embedded React Component<br/>SSE Stream Consumer]
+        WEB[JAK Web ApplicationNext.js]
+        WIDGET[Shopping Agent WidgetEmbedded React ComponentSSE Stream Consumer]
         WEB -->|Embeds| WIDGET
     end
 
     subgraph "API GATEWAY"
-        GATEWAY[Express Gateway<br/>Authentication JWT<br/>Rate Limiting<br/>SSE Proxy]
+        GATEWAY[Express GatewayAuthentication JWTRate LimitingSSE Proxy]
     end
 
     subgraph "AI ENGINE - FastAPI"
-        ORCHESTRATOR[Conversation Orchestrator<br/>Multi-turn State Management<br/>User Context Assembly]
+        ORCHESTRATOR[Conversation OrchestratorMulti-turn State ManagementUser Context Assembly]
         
-        SHOPPING[Shopping Agent<br/>Query Understanding<br/>Merchant Recommendation<br/>Shopping Link Generation<br/>Refinement Loop]
+        SHOPPING[Shopping AgentQuery UnderstandingMerchant RecommendationShopping Link GenerationRefinement Loop]
         
-        PREF_SVC[Preference Service<br/>Attribute Extraction<br/>Weighted Scoring<br/>Demographic 5% Preference 80% Behavioral 15%<br/>Adaptive Question Count<br/>Negative Preference Learning]
+        PREF_SVC[Preference ServiceAttribute ExtractionWeighted ScoringDemographic 5pct Preference 80pct Behavioral 15pctAdaptive Question CountNegative Preference Learning]
         
-        USER_PROFILE[User Profile Service<br/>Name Retrieval<br/>Registration Status Check<br/>Personalized Greeting Generation]
+        USER_PROFILE[User Profile ServiceName RetrievalRegistration Status CheckPersonalized Greeting Generation]
         
-        LOGISTICS_ANALYZER[Logistics Analyzer<br/>Shipping Pattern Analysis<br/>Origin Frequency USA Turkey<br/>Average Shipment Weight<br/>Shipping Frequency Patterns]
+        LOGISTICS_ANALYZER[Logistics AnalyzerShipping Pattern AnalysisOrigin Frequency USA TurkeyAverage Shipment WeightShipping Frequency Patterns]
         
-        MERCHANT_MATCHER[Merchant Matching Engine<br/>Category to Merchant Mapping<br/>Origin Filtering USA Turkey<br/>Preference Based Ranking]
+        MERCHANT_MATCHER[Merchant Matching EngineCategory to Merchant MappingOrigin Filtering USA TurkeyPreference Based Ranking]
         
-        SHIPPING_GUIDANCE[Shipping Guidance Service<br/>Cost Estimation<br/>Timeline Calculation<br/>Restriction Validation<br/>JAK Address Instructions]
+        SHIPPING_GUIDANCE[Shipping Guidance ServiceCost EstimationTimeline CalculationRestriction ValidationJAK Address Instructions]
         
-        ANALYTICS[Analytics Service<br/>Event Tracking<br/>Recommendation Clicks<br/>Refinement Patterns<br/>Satisfaction Scores<br/>Success Metrics Collection]
+        ANALYTICS[Analytics ServiceEvent TrackingRecommendation ClicksRefinement PatternsSatisfaction ScoresSuccess Metrics Collection]
     end
 
     subgraph "DATA INGESTION LAYER"
-        ETL[Nightly ETL Job<br/>Reads JAK Production DB<br/>Extracts Shipping Patterns<br/>Origin Frequency Weight Frequency<br/>Builds Logistics Summaries<br/>Incremental Updates Only]
+        ETL[Nightly ETL JobReads JAK Production DBExtracts Shipping PatternsOrigin Frequency Weight FrequencyBuilds Logistics SummariesIncremental Updates Only]
     end
 
     subgraph "STORAGE LAYER"
-        PREF_DB[(PostgreSQL<br/>User Preferences<br/>Conversation History<br/>Preference Learning State)]
+        PREF_DB[(PostgreSQLUser PreferencesConversation HistoryPreference Learning State)]
         
-        SUMMARY_DB[(PostgreSQL<br/>Shipping Pattern Summaries<br/>Pre-computed Logistics Profiles<br/>Origin Frequency USA Turkey<br/>Average Shipment Weight<br/>Shipping Frequency Patterns)]
+        SUMMARY_DB[(PostgreSQLShipping Pattern SummariesPre-computed Logistics ProfilesOrigin Frequency USA TurkeyAverage Shipment WeightShipping Frequency Patterns)]
         
-        MERCHANT_DB[(PostgreSQL<br/>Approved Merchant List<br/>Security Quality Filter<br/>Category Mappings<br/>Origin Availability<br/>Merchant URLs<br/>Shipping Compatible Flags]
+        MERCHANT_DB[(PostgreSQLApproved Merchant ListSecurity Quality FilterCategory MappingsOrigin AvailabilityMerchant URLsShipping Compatible Flags)]
         
-        JAK_PROD[(JAK Production DB<br/>15 Years Order History<br/>User Registration<br/>Shipment Records<br/>Read-Only Access)]
+        JAK_PROD[(JAK Production DB15 Years Order HistoryUser RegistrationShipment RecordsRead-Only Access)]
         
-        CACHE[(Redis<br/>Active User Preferences<br/>Session State<br/>Merchant Recommendations)]
+        CACHE[(RedisActive User PreferencesSession StateMerchant Recommendations)]
         
-        ANALYTICS_DB[(PostgreSQL<br/>Event Logs<br/>Recommendation Clicks<br/>User Interactions<br/>Satisfaction Scores<br/>Refinement Patterns)]
+        ANALYTICS_DB[(PostgreSQLEvent LogsRecommendation ClicksUser InteractionsSatisfaction ScoresRefinement Patterns)]
     end
 
     subgraph "EXTERNAL SERVICES"
-        LLM[LLM Service<br/>Qwen DeepSeek<br/>Query Parsing<br/>Response Generation<br/>Arabic English]
-        SEARCH_TOOL[Search Tool<br/>Tavily API / Google Custom Search<br/>Real-time Product Search<br/>Price & Availability Data<br/>RAG over Search Results]
+        LLM[LLM ServiceQwen DeepSeekQuery ParsingResponse GenerationArabic English]
+        SEARCH_TOOL[Search ToolTavily API or Google Custom SearchReal-time Product SearchPrice and Availability DataRAG over Search Results]
     end
 
     %% Client Flow
