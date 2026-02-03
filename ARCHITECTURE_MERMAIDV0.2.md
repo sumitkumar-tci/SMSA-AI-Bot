@@ -131,39 +131,39 @@ graph TB
 ```mermaid
 graph TB
     subgraph "FRONTEND"
-        WIDGET[Shopping Widget<br/>React + SSE Stream]
+        WIDGET["Shopping Widget<br/>React + SSE Stream"]
     end
 
     subgraph "API GATEWAY"
-        GATEWAY[Secure Gateway<br/>Auth & Rate Limit]
+        GATEWAY["Secure Gateway<br/>Auth & Rate Limit"]
     end
 
     subgraph "THE AI BRAIN (FastAPI)"
-        ORCHESTRATOR[<b>Orchestrator</b><br/>LangGraph State Machine<br/><i>Controls the flow</i>]
+        ORCHESTRATOR["<b>Orchestrator</b><br/>LangGraph State Machine<br/><i>Controls the flow</i>"]
         
         subgraph "1. CONTEXT ENGINE"
-            PREFS[<b>Preference Logic</b><br/>User Tastes &<br/>Shipping Habits]
-            LOGISTICS[<b>Logistics Analyzer</b><br/>Origin Affinity<br/>(USA vs Turkey)]
+            PREFS["<b>Preference Logic</b><br/>User Tastes &<br/>Shipping Habits"]
+            LOGISTICS["<b>Logistics Analyzer</b><br/>Origin Affinity<br/>(USA vs Turkey)"]
         end
 
         subgraph "2. EXECUTION ENGINE"
-            SEARCH_AGENT[<b>Search Agent</b><br/>Generates Queries<br/>& Parsons Results]
-            MERCHANT_GUARD[<b>Merchant Guard</b><br/>Whitelist Filter<br/>(Security Layer)]
+            SEARCH_AGENT["<b>Search Agent</b><br/>Generates Queries<br/>& Parses Results"]
+            MERCHANT_GUARD["<b>Merchant Guard</b><br/>Whitelist Filter<br/>(Security Layer)"]
         end
 
         subgraph "3. VALUE ENGINE"
-            SHIPPING_CALC[<b>Shipping Calc</b><br/>Est. Cost & Time<br/>(The JAK Value Add)]
+            SHIPPING_CALC["<b>Shipping Calc</b><br/>Est. Cost & Time<br/>(The JAK Value Add)"]
         end
     end
 
     subgraph "DATA LAYER"
-        DB_USER[(User/Logistics DB)]
-        DB_MERCHANT[(Approved Merchants)]
+        DB_USER[("(User/Logistics DB)")]
+        DB_MERCHANT[("(Approved Merchants)")]
     end
 
     subgraph "EXTERNAL TOOLS"
-        LLM[LLM Service<br/>Qwen/DeepSeek]
-        GOOGLE[Search Tool<br/>Tavily/Google API]
+        LLM["LLM Service<br/>Qwen/DeepSeek"]
+        GOOGLE["Search Tool<br/>Tavily/Google API"]
     end
 
     %% Key Flows
@@ -192,7 +192,6 @@ graph TB
     style SEARCH_AGENT fill:#e1ffe1,stroke:#2d6a4f,stroke-width:2px
     style GOOGLE fill:#ffddd2,stroke:#e63946
     style MERCHANT_GUARD fill:#fff3cd,stroke:#ffc107
-
     ```
 
 ## Phase 1 Technology Stack (End-to-End)
