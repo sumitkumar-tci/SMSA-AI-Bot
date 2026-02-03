@@ -157,7 +157,7 @@ graph TB
 ### Data Processing
 - **ETL Framework**: Python with pandas for data transformation
 - **SQL Queries**: Raw SQL with asyncpg (no ORM for performance)
-- **Pattern Recognition**: SQL aggregation (GROUP BY, COUNT, AVG) - not ML models
+- **Pattern Recognition**: SQL aggregation (GROUP BY, COUNT, AVG) - not ML models(can consider in phase 2)
 - **Data Transformation**: pandas DataFrame operations
 
 ### Storage Layer
@@ -183,15 +183,6 @@ graph TB
 
 ### Development Tools
 - **Version Control**: Git
-- **Package Management**: 
-  - Frontend: npm/yarn
-  - Backend: pip with requirements.txt or poetry
-- **Code Quality**: 
-  - Python: black, ruff, mypy
-  - TypeScript: ESLint, Prettier
-- **Testing**: 
-  - Python: pytest
-  - TypeScript: Jest/Vitest
 
 ## Data Flow Architecture
 
@@ -235,12 +226,6 @@ JAK Production DB (History)
         └─ brand_distribution JSON
 ```
 
-**Why This Design:**
-- JAK Production DB has History of years data - cannot query in real-time
-- ETL pre-computes summaries for instant access during conversations
-- Incremental updates keep data fresh without full scans
-- Read-only access to production DB protects operational systems
-
 **Pattern Recognition Implementation (SQL Aggregation, Not ML):**
 
 **SQL Aggregation Patterns Used:**
@@ -280,17 +265,11 @@ CREATE TABLE conversation_history (
 );
 ```
 
-**Why PostgreSQL:**
-- Structured preference data with JSONB flexibility
-- ACID transactions for preference updates
-- Efficient indexing on user_id for fast lookups
-- No need for vector DB - preferences are structured attributes, not embeddings
-
 ### 3. Merchant Catalog (Internal Data)
 
-**BRD Section 12: "No external merchant APIs required for Phase 1"**
+**"No external merchant APIs required for Phase 1"**
 
-This means JAK maintains an **internal merchant catalog** mapping categories to merchant websites:
+JAK maintains an **internal merchant catalog** mapping categories to merchant websites:
 
 ```sql
 CREATE TABLE merchant_catalog (
@@ -310,12 +289,6 @@ CREATE TABLE merchant_catalog (
 -- Amazon.com: categories=['electronics', 'home', 'fashion'], origins=['USA', 'Turkey']
 -- LC Waikiki: categories=['fashion', 'home'], origins=['Turkey']
 ```
-
-**Why Internal Catalog:**
-- BRD explicitly states "No external merchant APIs required"
-- Phase 1 provides "curated shopping links" not product search
-- Merchant catalog is manually curated and maintained
-- Maps user preferences (category, brand, origin) to merchant websites
 
 ### 3.1 Product & Pricing Data Sources (Phase 1)
 
@@ -482,11 +455,6 @@ ADD COLUMN negative_preferences JSONB;
 }
 ```
 
-**Why This Component:**
-- Transcript: "I will know that Mahmoud he doesn't like the red color so I will not provide him"
-- Continuous learning from negative feedback
-- Improves recommendation accuracy over time
-
 ### 4.5 User Profile Service (Personalized Greeting)
 
 **Technical Flow:**
@@ -513,11 +481,6 @@ ADD COLUMN negative_preferences JSONB;
 **Data Sources:**
 - **JAK_PROD**: User registration table (name, phone, registration_date)
 - **CACHE**: Frequently accessed user profiles (TTL: 1 hour)
-
-**Why This Component:**
-- Transcript: "But you need to use my name as long as I have an account. The appreciation or the hello message should be... 'Hi Mahmoud how are you?'"
-- Personalizes user experience from first interaction
-- Builds trust and engagement
 
 ### 5. Merchant Recommendation Flow
 
@@ -578,15 +541,13 @@ ADD COLUMN negative_preferences JSONB;
 **Technology**: Rule-based scoring using dictionary operations, no ML libraries
 
 **Why No Product Search API:**
-- BRD Section 12: "No external merchant APIs required for Phase 1"
-- BRD Section 6: "Provide personalized shopping recommendations in the form of curated shopping links"
-- BRD Section 8.2: "Provide merchant links only no checkout"
+- "No external merchant APIs required for Phase 1"
+- "Provide personalized shopping recommendations in the form of curated shopping links"
+- "Provide merchant links only no checkout"
 - Phase 1 recommends WHERE to shop, not WHAT to buy
 - User clicks merchant link and shops externally
 
 ### 5.1 Shipping Guidance Service (Phase 1 Requirement)
-
-**BRD Section 6 Phase 1 Capability: "Explain shipping costs, timelines, and restrictions"**
 
 **Technical Flow:**
 ```
@@ -623,12 +584,6 @@ ADD COLUMN negative_preferences JSONB;
 - **SUMMARY_DB**: Average shipping times per origin (pre-computed from ETL)
 - **JAK_PROD**: Historical shipment records for cost/timeline calculation
 - **CACHE**: Frequently asked shipping questions (TTL: 1 hour)
-
-**Why This Component:**
-- BRD Phase 1 explicitly requires explaining shipping costs, timelines, restrictions
-- Logistics-aware recommendations (BRD Section 6 Key Characteristics)
-- Guides users before external checkout (BRD Section 6 Capabilities)
-- No transaction handling - only informational guidance
 
 ### 5.2 LLM Integration (Qwen/DeepSeek) - Technical Implementation
 
@@ -673,8 +628,6 @@ ADD COLUMN negative_preferences JSONB;
 - **Rate Limiting**: Token bucket algorithm (client-side)
 
 ### 5.3 Analytics Service (Success Metrics Tracking)
-
-**BRD Section 10: Success Metrics - Customer Experience & Business Impact**
 
 **Technical Flow:**
 ```
@@ -737,20 +690,7 @@ CREATE TABLE success_metrics (
 );
 ```
 
-**Why This Component:**
-- BRD Section 10 requires tracking: recommendation clicks, refinement rate, satisfaction scores, shipments per user
-- Enables data-driven improvements to recommendation algorithm
-- Measures business impact: increased shipments, reduced support tickets
-- Non-intrusive: asynchronous event logging, no impact on user experience
-
 ### 6. Conversation State Management
-
-**Why LangGraph:**
-- Multi-turn conversations require state persistence across messages
-- User journey has distinct stages: context assembly → preference gathering → merchant recommendation → refinement
-- State machine handles three user types: logged-in with history, logged-in without history, new user
-- Orchestrates multiple services: preference service, history analyzer, merchant matcher, LLM
-
 **LangGraph Technical Implementation:**
 
 **State Machine Structure:**
@@ -785,7 +725,7 @@ CREATE TABLE success_metrics (
         └─ Action: Provide merchant shopping links
 ```
 
-### 6.1 User Journey Overview (Aligned with BRD Section 5)
+### 6.1 User Journey Overview 
 
 ```mermaid
 graph LR
@@ -828,8 +768,7 @@ graph LR
 ### 7. Scalability Design
 
 **User Scale Assumptions:**
-- Phase 1: 1,000-5,000 active users
-- 15 years of historical data: ~500,000 users, ~5M orders
+- Phase 1: 1,000-10,000 active users
 
 **Performance Optimizations:**
 
@@ -863,41 +802,6 @@ JAK Production DB:
     └─ No impact on operational systems.
 ```
 
-### 8. Why This Architecture is Not Generic
-
-**Grounded in 15 Years of Operational Data:**
-- ETL pipeline specifically designed to process partitioned historical data
-- Order summaries pre-computed to avoid real-time queries on massive datasets
-- Preference extraction based on actual purchase patterns, not assumptions
-
-**Logistics-First Design:**
-- No checkout or payment processing (BRD Section 4.2)
-- Integration with existing JAK systems (production DB, user auth)
-- Merchant links only - external transactions
-- No product catalog - recommends merchants, not products
-
-**Defensible Component Choices:**
-- PostgreSQL: Structured preferences, ACID transactions, proven at scale
-- Redis: Performance optimization for active users
-- LangGraph: Multi-turn conversation orchestration (required for state management)
-- Rule-based merchant ranking: Transparent, explainable, sufficient for Phase 1
-- Internal merchant catalog: No external APIs needed (BRD Section 12)
-- No vector DB: Preferences are structured, not semantic embeddings
-- No ML models: Phase 1 scope is preference-based, not predictive
-- No product search API: Phase 1 recommends merchants, not products
-
-**Production-Ready Considerations:**
-- Read-only access to production DB protects operational systems
-- Incremental ETL updates avoid full scans
-- Caching reduces database load
-- Rate limiting protects system
-- SSE streaming for real-time user experience
-
-**Clear Separation of Concerns:**
-- Data ingestion (ETL) separate from real-time serving
-- Preference management separate from merchant matching
-- Conversation orchestration separate from business logic
-- Each component has single responsibility and clear boundaries
 
 ## Key Data Flow Relationships
 
