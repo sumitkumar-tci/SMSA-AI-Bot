@@ -192,7 +192,7 @@ graph TB
     style SEARCH_AGENT fill:#e1ffe1,stroke:#2d6a4f,stroke-width:2px
     style GOOGLE fill:#ffddd2,stroke:#e63946
     style MERCHANT_GUARD fill:#fff3cd,stroke:#ffc107
-    ```
+```
 
 ## Phase 1 Technology Stack (End-to-End)
 
