@@ -324,36 +324,3 @@ Per-User: 100 requests/hour
 Per-IP: 1000 requests/hour
 Open Search API: Respect external limits
 ```
-
-### 7. Why This Architecture is Not Generic
-
-**Grounded in 15 Years of Operational Data:**
-- ETL pipeline specifically designed to process partitioned historical data
-- Order summaries pre-computed to avoid real-time queries on massive datasets
-- Preference extraction based on actual purchase patterns, not assumptions
-
-**Logistics-First Design:**
-- No checkout or payment processing (BRD Section 4.2)
-- Integration with existing JAK systems (production DB, user auth)
-- Shopping links only - external merchant transactions
-
-**Defensible Component Choices:**
-- PostgreSQL: Structured preferences, ACID transactions, proven at scale
-- Redis: Performance optimization for active users
-- LangGraph: Multi-turn conversation orchestration (not overkill - required for state management)
-- Rule-based ranking: Transparent, explainable, sufficient for Phase 1
-- No vector DB: Preferences are structured, not semantic embeddings
-- No ML models: Phase 1 scope is preference-based, not predictive
-
-**Production-Ready Considerations:**
-- Read-only access to production DB protects operational systems
-- Incremental ETL updates avoid full scans
-- Caching reduces database load
-- Rate limiting protects external APIs
-- SSE streaming for real-time user experience
-
-**Clear Separation of Concerns:**
-- Data ingestion (ETL) separate from real-time serving
-- Preference management separate from product search
-- Conversation orchestration separate from business logic
-- Each component has single responsibility and clear boundaries
