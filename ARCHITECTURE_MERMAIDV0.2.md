@@ -39,7 +39,7 @@ graph TB
         
         SUMMARY_DB[(PostgreSQL<br/>Order Summaries<br/>Pre-computed User Profiles<br/>Category Aggregates<br/>Brand Frequency)]
         
-        MERCHANT_DB[(PostgreSQL<br/>Merchant Catalog<br/>Category Mappings<br/>Origin Availability<br/>Merchant URLs<br/>Shipping Compatible Flags]
+        MERCHANT_DB[(PostgreSQL<br/>Merchant Catalog<br/>Category Mappings<br/>Origin Availability<br/>Merchant URLs<br/>Shipping Compatible Flags)]
         
         JAK_PROD[(JAK Production DB<br/>15 Years Order History<br/>User Registration<br/>Shipment Records<br/>Read-Only Access)]
         
