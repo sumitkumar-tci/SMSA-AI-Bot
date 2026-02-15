@@ -1,0 +1,61 @@
+# TRACKING AGENT - 50 TRAINING QUERIES
+
+## Basic Tracking (10)
+1. track 227047923763
+2. where is my package 456799871238
+3. track shipment 123456789012
+4. check status of 987654321098
+5. track AWB 112233445566
+6. where is 998877665544
+7. track my order 334455667788
+8. shipment status 556677889900
+9. track 778899001122
+10. where is my parcel 223344556677
+
+## Follow-up Status Questions (10)
+11. track 227047923763 → when will it arrive?
+12. track 456799871238 → is it delivered?
+13. track 123456789012 → what's the current location?
+14. track 987654321098 → has it been picked up?
+15. track 112233445566 → is it out for delivery?
+16. track 998877665544 → any delays?
+17. track 334455667788 → expected delivery date?
+18. track 556677889900 → where is it now?
+19. track 778899001122 → is there a problem?
+20. track 223344556677 → delivery status?
+
+## Multiple Tracking (10)
+21. track 227047923763 → also track 456799871238
+22. track 123456789012 → and 987654321098
+23. track 112233445566 → what about 998877665544
+24. track 334455667788 → also check 556677889900
+25. track 778899001122 → and 223344556677
+26. track these: 227047923763, 456799871238
+27. check status of 123456789012 and 987654321098
+28. track multiple: 112233445566, 998877665544, 334455667788
+29. where are 556677889900 and 778899001122
+30. track all: 223344556677, 227047923763, 456799871238
+
+## Context References (10)
+31. track 227047923763 → show me that one again
+32. track 456799871238 → what about the first one?
+33. track 123456789012 → check the previous tracking
+34. track 987654321098 → status of the last one?
+35. track 112233445566 → what about that shipment?
+36. track 998877665544 → the one I just tracked?
+37. track 334455667788 → show me this one's history
+38. track 556677889900 → what about it?
+39. track 778899001122 → check that one
+40. track 223344556677 → status of this?
+
+## Variations & Edge Cases (10)
+41. where is my package
+42. I want to track my shipment
+43. can you check my order status
+44. tracking number is 227047923763
+45. my AWB is 456799871238
+46. check this tracking: 123456789012
+47. has my package arrived
+48. when will my order be delivered
+49. is my shipment on the way
+50. delivery status please

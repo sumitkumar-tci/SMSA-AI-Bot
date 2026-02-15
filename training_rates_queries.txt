@@ -1,0 +1,63 @@
+# RATES AGENT - 50 TRAINING QUERIES
+
+## Basic Rate Queries (10)
+1. rates from Riyadh to Jeddah for 5kg
+2. how much to ship 10kg from Makkah to Madinah
+3. shipping cost from Riyadh to Dammam 15kg
+4. price for 20kg parcel Jeddah to Riyadh
+5. cost to send 3kg from Madinah to Makkah
+6. what's the rate for 25kg Riyadh to Jeddah
+7. shipping price 8kg from Dammam to Riyadh
+8. how much for 12kg Makkah to Jeddah
+9. rate for 30kg from Riyadh to Madinah
+10. cost of 7kg shipment Jeddah to Dammam
+
+## Follow-up Weight Changes (10)
+11. rates from Riyadh to Jeddah for 5kg → what about 10kg?
+12. rates from Makkah to Madinah for 15kg → and 20kg?
+13. rates from Riyadh to Dammam for 8kg → how about 25kg?
+14. rates from Jeddah to Riyadh for 12kg → what about 5kg?
+15. rates from Madinah to Makkah for 10kg → and for 30kg?
+16. rates from Riyadh to Jeddah for 20kg → 15kg?
+17. rates from Dammam to Riyadh for 5kg → what about 40kg?
+18. rates from Makkah to Jeddah for 18kg → and 22kg?
+19. rates from Riyadh to Madinah for 6kg → how about 12kg?
+20. rates from Jeddah to Dammam for 25kg → what about 10kg?
+
+## Follow-up Route Changes (10)
+21. rates from Riyadh to Jeddah for 5kg → what about Makkah to Madinah?
+22. rates from Makkah to Madinah for 10kg → how about Riyadh to Dammam?
+23. rates from Riyadh to Dammam for 15kg → what about Jeddah to Riyadh?
+24. rates from Jeddah to Riyadh for 8kg → and Madinah to Makkah?
+25. rates from Madinah to Makkah for 12kg → what about Riyadh to Jeddah?
+
+## Incomplete Queries (Context-dependent) (10)
+26. rates from Riyadh to Jeddah for 5kg → 10kg?
+27. rates from Makkah to Madinah for 15kg → 20kg
+28. rates from Riyadh to Dammam for 8kg → same route 25kg
+29. rates from Jeddah to Riyadh for 12kg → and 5kg?
+30. rates from Madinah to Makkah for 10kg → what about 30kg
+31. rates from Riyadh to Jeddah for 20kg → 15
+32. rates from Dammam to Riyadh for 5kg → 40kg?
+33. rates from Makkah to Jeddah for 18kg → and 22
+34. rates from Riyadh to Madinah for 6kg → 12kg
+35. rates from Jeddah to Dammam for 25kg → 10
+
+## Complex Multi-turn (10)
+36. rates Riyadh to Jeddah 5kg → 10kg? → 15kg? → 20kg?
+37. rates Makkah to Madinah 8kg → what about Riyadh to Jeddah? → 12kg?
+38. rates Riyadh to Dammam 10kg → 20kg? → what about Jeddah to Riyadh?
+39. rates Jeddah to Riyadh 15kg → same route 25kg → and 30kg?
+40. rates Madinah to Makkah 5kg → 10kg → what about Riyadh to Jeddah?
+
+## Edge Cases & Variations (10)
+41. how much does it cost to ship from Riyadh to Jeddah
+42. I want to send a package from Makkah to Madinah, 10 kilograms
+43. shipping rates please, Riyadh to Dammam, weight is 15kg
+44. can you tell me the price for sending 20kg from Jeddah to Riyadh
+45. what are your rates for domestic shipping
+46. I need to ship something from Madinah to Makkah
+47. how much for express delivery Riyadh to Jeddah 5kg
+48. cheapest rate from Dammam to Riyadh 8kg
+49. what's the cost to send a parcel
+50. shipping calculator Riyadh to Jeddah

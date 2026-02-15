@@ -1,0 +1,755 @@
+[
+  {
+    "query": "rates from Riyadh to Jeddah for 5kg",
+    "response": "## 💰 Shipping Rates\n\n**Route:** Riyadh, SA → Jeddah, SA  \n**Weight:** 5 kg\n\n| Service | Base Price | VAT (15%) | Total Price |\n|---------|------------|------------|-------------|\n| SMSA Priority Parcels (SPOP) | 122.0 SAR | 18.3 SAR | **140.3 SAR** |\n| SMSA Small Box (SSB) | 85.71 SAR | 12.86 SAR | **98.57 SAR** |\n\n💡 **Tip:** Choose the service that best fits your package size and delivery needs!\n\n📦 **Service Options:**\n- Priority Parcels: Standard parcels\n- Small Box: Pre-sized boxes for small items",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 9,
+      "issues": [
+        "Contains emojis (should not)"
+      ],
+      "strengths": [
+        "Appropriate length",
+        "Contains pricing info",
+        "No errors"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "how much to ship 10kg from Makkah to Madinah",
+    "response": "## 💰 Shipping Rates\n\n**Route:** Makkah, SA → Madinah, SA  \n**Weight:** 10 kg\n\n| Service | Base Price | VAT (15%) | Total Price |\n|---------|------------|------------|-------------|\n| SMSA Priority Parcels (SPOP) | 122.0 SAR | 18.3 SAR | **140.3 SAR** |\n\n💡 **Tip:** Choose the service that best fits your package size and delivery needs!\n\n📦 **Service Options:**\n- Priority Parcels: Standard parcels\n- Small Box: Pre-sized boxes for small items",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 9,
+      "issues": [
+        "Contains emojis (should not)"
+      ],
+      "strengths": [
+        "Appropriate length",
+        "No errors"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "shipping cost from Riyadh to Dammam 15kg",
+    "response": "## 💰 Shipping Rates\n\n**Route:** Riyadh, SA → Dammam, SA  \n**Weight:** 15 kg\n\n| Service | Base Price | VAT (15%) | Total Price |\n|---------|------------|------------|-------------|\n| SMSA Priority Parcels (SPOP) | 122.0 SAR | 18.3 SAR | **140.3 SAR** |\n\n💡 **Tip:** Choose the service that best fits your package size and delivery needs!\n\n📦 **Service Options:**\n- Priority Parcels: Standard parcels\n- Small Box: Pre-sized boxes for small items",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 9,
+      "issues": [
+        "Contains emojis (should not)"
+      ],
+      "strengths": [
+        "Appropriate length",
+        "Contains pricing info",
+        "No errors"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "price for 20kg parcel Jeddah to Riyadh",
+    "response": "## 💰 Shipping Rates\n\n**Route:** Jeddah, SA → Riyadh, SA  \n**Weight:** 20 kg\n\n| Service | Base Price | VAT (15%) | Total Price |\n|---------|------------|------------|-------------|\n| SMSA Priority Parcels (SPOP) | 142.0 SAR | 21.3 SAR | **163.3 SAR** |\n\n💡 **Tip:** Choose the service that best fits your package size and delivery needs!\n\n📦 **Service Options:**\n- Priority Parcels: Standard parcels\n- Small Box: Pre-sized boxes for small items",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 9,
+      "issues": [
+        "Contains emojis (should not)"
+      ],
+      "strengths": [
+        "Appropriate length",
+        "Contains pricing info",
+        "No errors"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "cost to send 3kg from Madinah to Makkah",
+    "response": "## 💰 Shipping Rates\n\n**Route:** Madinah, SA → Makkah, SA  \n**Weight:** 3 kg\n\n| Service | Base Price | VAT (15%) | Total Price |\n|---------|------------|------------|-------------|\n| SMSA Priority Parcels (SPOP) | 122.0 SAR | 18.3 SAR | **140.3 SAR** |\n| SMSA Small Box (SSB) | 85.71 SAR | 12.86 SAR | **98.57 SAR** |\n\n💡 **Tip:** Choose the service that best fits your package size and delivery needs!\n\n📦 **Service Options:**\n- Priority Parcels: Standard parcels\n- Small Box: Pre-sized boxes for small items",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 9,
+      "issues": [
+        "Contains emojis (should not)"
+      ],
+      "strengths": [
+        "Appropriate length",
+        "Contains pricing info",
+        "No errors"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "what's the rate for 25kg Riyadh to Jeddah",
+    "response": "## 💰 Shipping Rates\n\n**Route:** Riyadh, SA → Jeddah, SA  \n**Weight:** 25 kg\n\n| Service | Base Price | VAT (15%) | Total Price |\n|---------|------------|------------|-------------|\n| SMSA Priority Parcels (SPOP) | 162.0 SAR | 24.3 SAR | **186.3 SAR** |\n\n💡 **Tip:** Choose the service that best fits your package size and delivery needs!\n\n📦 **Service Options:**\n- Priority Parcels: Standard parcels\n- Small Box: Pre-sized boxes for small items",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 9,
+      "issues": [
+        "Contains emojis (should not)"
+      ],
+      "strengths": [
+        "Appropriate length",
+        "Contains pricing info",
+        "No errors"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "shipping price 8kg from Dammam to Riyadh",
+    "response": "## 💰 Shipping Rates\n\n**Route:** Dammam, SA → Riyadh, SA  \n**Weight:** 8 kg\n\n| Service | Base Price | VAT (15%) | Total Price |\n|---------|------------|------------|-------------|\n| SMSA Priority Parcels (SPOP) | 122.0 SAR | 18.3 SAR | **140.3 SAR** |\n\n💡 **Tip:** Choose the service that best fits your package size and delivery needs!\n\n📦 **Service Options:**\n- Priority Parcels: Standard parcels\n- Small Box: Pre-sized boxes for small items",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 9,
+      "issues": [
+        "Contains emojis (should not)"
+      ],
+      "strengths": [
+        "Appropriate length",
+        "Contains pricing info",
+        "No errors"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "how much for 12kg Makkah to Jeddah",
+    "response": "## 💰 Shipping Rates\n\n**Route:** Makkah, SA → Jeddah, SA  \n**Weight:** 12 kg\n\n| Service | Base Price | VAT (15%) | Total Price |\n|---------|------------|------------|-------------|\n| SMSA Priority Parcels (SPOP) | 122.0 SAR | 18.3 SAR | **140.3 SAR** |\n\n💡 **Tip:** Choose the service that best fits your package size and delivery needs!\n\n📦 **Service Options:**\n- Priority Parcels: Standard parcels\n- Small Box: Pre-sized boxes for small items",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 9,
+      "issues": [
+        "Contains emojis (should not)"
+      ],
+      "strengths": [
+        "Appropriate length",
+        "No errors"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "rate for 30kg from Riyadh to Madinah",
+    "response": "## 💰 Shipping Rates\n\n**Route:** Riyadh, SA → Madinah, SA  \n**Weight:** 30 kg\n\n| Service | Base Price | VAT (15%) | Total Price |\n|---------|------------|------------|-------------|\n| SMSA Priority Parcels (SPOP) | 182.0 SAR | 27.3 SAR | **209.3 SAR** |\n\n💡 **Tip:** Choose the service that best fits your package size and delivery needs!\n\n📦 **Service Options:**\n- Priority Parcels: Standard parcels\n- Small Box: Pre-sized boxes for small items",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 9,
+      "issues": [
+        "Contains emojis (should not)"
+      ],
+      "strengths": [
+        "Appropriate length",
+        "Contains pricing info",
+        "No errors"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "cost of 7kg shipment Jeddah to Dammam",
+    "response": "## 💰 Shipping Rates\n\n**Route:** Jeddah, SA → Dammam, SA  \n**Weight:** 7 kg\n\n| Service | Base Price | VAT (15%) | Total Price |\n|---------|------------|------------|-------------|\n| SMSA Priority Parcels (SPOP) | 122.0 SAR | 18.3 SAR | **140.3 SAR** |\n\n💡 **Tip:** Choose the service that best fits your package size and delivery needs!\n\n📦 **Service Options:**\n- Priority Parcels: Standard parcels\n- Small Box: Pre-sized boxes for small items",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 9,
+      "issues": [
+        "Contains emojis (should not)"
+      ],
+      "strengths": [
+        "Appropriate length",
+        "Contains pricing info",
+        "No errors"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "rates from Riyadh to Jeddah for 5kg",
+    "response": "## 💰 Shipping Rates\n\n**Route:** Riyadh, SA → Jeddah, SA  \n**Weight:** 5 kg\n\n| Service | Base Price | VAT (15%) | Total Price |\n|---------|------------|------------|-------------|\n| SMSA Priority Parcels (SPOP) | 122.0 SAR | 18.3 SAR | **140.3 SAR** |\n| SMSA Small Box (SSB) | 85.71 SAR | 12.86 SAR | **98.57 SAR** |\n\n💡 **Tip:** Choose the service that best fits your package size and delivery needs!\n\n📦 **Service Options:**\n- Priority Parcels: Standard parcels\n- Small Box: Pre-sized boxes for small items",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 9,
+      "issues": [
+        "Contains emojis (should not)"
+      ],
+      "strengths": [
+        "Appropriate length",
+        "Contains pricing info",
+        "No errors"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "what about 10kg?",
+    "response": "To check the shipping rate for 10kg, I'll need the origin and destination details. Please provide:\n1. **From**: City and country (e.g., Riyadh, Saudi Arabia)\n2. **To**: City and country (e.g., Dubai, UAE)\n\nThis will help me calculate the exact rate for you.",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 10,
+      "issues": [],
+      "strengths": [
+        "Appropriate length",
+        "No errors",
+        "No emojis (correct)"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "rates from Makkah to Madinah for 15kg",
+    "response": "## 💰 Shipping Rates\n\n**Route:** Makkah, SA → Madinah, SA  \n**Weight:** 15 kg\n\n| Service | Base Price | VAT (15%) | Total Price |\n|---------|------------|------------|-------------|\n| SMSA Priority Parcels (SPOP) | 122.0 SAR | 18.3 SAR | **140.3 SAR** |\n\n💡 **Tip:** Choose the service that best fits your package size and delivery needs!\n\n📦 **Service Options:**\n- Priority Parcels: Standard parcels\n- Small Box: Pre-sized boxes for small items",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 9,
+      "issues": [
+        "Contains emojis (should not)"
+      ],
+      "strengths": [
+        "Appropriate length",
+        "Contains pricing info",
+        "No errors"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "and 20kg?",
+    "response": "## 💰 Shipping Rates\n\n**Route:** Riyadh, SA → Dubai, AE  \n**Weight:** 20 kg\n\n| Service | Base Price | VAT (0%) | Total Price |\n|---------|------------|------------|-------------|\n| SMSA International Non Documents - (SIND) | 3103.0 SAR | 0.0 SAR | **3103.0 SAR** |\n\n💡 **Tip:** Choose the service that best fits your package size and delivery needs!\n\n📦 **Service Options:**\n- Priority Parcels: Standard parcels\n- Small Box: Pre-sized boxes for small items",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 9,
+      "issues": [
+        "Contains emojis (should not)"
+      ],
+      "strengths": [
+        "Appropriate length",
+        "No errors"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "rates from Riyadh to Dammam for 8kg",
+    "response": "## 💰 Shipping Rates\n\n**Route:** Riyadh, SA → Dammam, SA  \n**Weight:** 8 kg\n\n| Service | Base Price | VAT (15%) | Total Price |\n|---------|------------|------------|-------------|\n| SMSA Priority Parcels (SPOP) | 122.0 SAR | 18.3 SAR | **140.3 SAR** |\n\n💡 **Tip:** Choose the service that best fits your package size and delivery needs!\n\n📦 **Service Options:**\n- Priority Parcels: Standard parcels\n- Small Box: Pre-sized boxes for small items",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 9,
+      "issues": [
+        "Contains emojis (should not)"
+      ],
+      "strengths": [
+        "Appropriate length",
+        "Contains pricing info",
+        "No errors"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "track 227047923763",
+    "response": "## Tracking Information for AWB: 227047923763\n\n**Current Status:** EXCEPTION  \n**Current Location:** Riyadh\n\n### Tracking History:\n\n| Date & Time | Location | Status |\n|-------------|----------|--------|\n| 2025-03-06 15:55 | Riyadh | Shipment Has Been Returned To Shipper |\n| 2025-03-05 07:31 | Riyadh | Shipmet Is Being Rerouted To New Address |\n| 2025-02-26 16:30 | Riyadh | Shipment Is Under Return Process To SMSA Facility |\n| 2025-02-26 12:10 | Riyadh | Arrived Delivery Facility |\n| 2025-02-26 00:17 | Riyadh | Arrived Delivery Facility |\n| 2025-02-25 11:23 | Riyadh | Shipment Departed SMSA Sorting Facility |\n| 2025-02-25 11:22 | Riyadh | Shipment Received at SMSA Sorting Facility |\n| 2025-02-22 11:15 | Riyadh | Collected from Retail |\n| 2025-02-22 09:54 | Riyadh | Shipment Is Under Return Process To SMSA Facility |\n| 2025-02-19 07:16 | Unknown location | SMS sent to consignee |\n| 2025-02-15 13:21 | Riyadh | Awaiting Consignee for Collection and SMS sent at Ar Rabwah, Omar Ibn Abdullaziz Road (Jarir Bookstore Exit-14) https://goo.gl/maps/Gp3LPUrxrNx |\n| 2025-02-14 01:46 | Riyadh | Arrived Delivery Facility |\n| 2025-02-13 16:18 | Riyadh | Shipment Picked up from the shipper. |",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 10,
+      "issues": [],
+      "strengths": [
+        "Appropriate length",
+        "Contains tracking info",
+        "No errors",
+        "No emojis (correct)"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "where is my package 456799871238",
+    "response": "## Tracking Information for AWB: 456799871238\n\n**Current Status:** EXCEPTION  \n**Current Location:** N/A\n\n### Tracking History:\n\n| Date & Time | Location | Status |\n|-------------|----------|--------|",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 10,
+      "issues": [],
+      "strengths": [
+        "Appropriate length",
+        "Contains tracking info",
+        "No errors",
+        "No emojis (correct)"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "track shipment 123456789012",
+    "response": "## Tracking Information for AWB: 123456789012\n\n**Current Status:** EXCEPTION  \n**Current Location:** N/A\n\n### Tracking History:\n\n| Date & Time | Location | Status |\n|-------------|----------|--------|",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 10,
+      "issues": [],
+      "strengths": [
+        "Appropriate length",
+        "Contains tracking info",
+        "No errors",
+        "No emojis (correct)"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "check status of 987654321098",
+    "response": "## Tracking Information for AWB: 987654321098\n\n**Current Status:** EXCEPTION  \n**Current Location:** N/A\n\n### Tracking History:\n\n| Date & Time | Location | Status |\n|-------------|----------|--------|",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 10,
+      "issues": [],
+      "strengths": [
+        "Appropriate length",
+        "No errors",
+        "No emojis (correct)"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "track AWB 112233445566",
+    "response": "## Tracking Information for AWB: 112233445566\n\n**Current Status:** EXCEPTION  \n**Current Location:** N/A\n\n### Tracking History:\n\n| Date & Time | Location | Status |\n|-------------|----------|--------|",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 10,
+      "issues": [],
+      "strengths": [
+        "Appropriate length",
+        "Contains tracking info",
+        "No errors",
+        "No emojis (correct)"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "where is 998877665544",
+    "response": "## Tracking Information for AWB: 998877665544\n\n**Current Status:** EXCEPTION  \n**Current Location:** N/A\n\n### Tracking History:\n\n| Date & Time | Location | Status |\n|-------------|----------|--------|",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 10,
+      "issues": [],
+      "strengths": [
+        "Appropriate length",
+        "Contains tracking info",
+        "No errors",
+        "No emojis (correct)"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "track my order 334455667788",
+    "response": "## Tracking Information for AWB: 334455667788\n\n**Current Status:** EXCEPTION  \n**Current Location:** N/A\n\n### Tracking History:\n\n| Date & Time | Location | Status |\n|-------------|----------|--------|",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 10,
+      "issues": [],
+      "strengths": [
+        "Appropriate length",
+        "Contains tracking info",
+        "No errors",
+        "No emojis (correct)"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "shipment status 556677889900",
+    "response": "## Tracking Information for AWB: 556677889900\n\n**Current Status:** EXCEPTION  \n**Current Location:** N/A\n\n### Tracking History:\n\n| Date & Time | Location | Status |\n|-------------|----------|--------|",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 10,
+      "issues": [],
+      "strengths": [
+        "Appropriate length",
+        "No errors",
+        "No emojis (correct)"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "track 778899001122",
+    "response": "## Tracking Information for AWB: 778899001122\n\n**Current Status:** EXCEPTION  \n**Current Location:** N/A\n\n### Tracking History:\n\n| Date & Time | Location | Status |\n|-------------|----------|--------|",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 10,
+      "issues": [],
+      "strengths": [
+        "Appropriate length",
+        "Contains tracking info",
+        "No errors",
+        "No emojis (correct)"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "where is my parcel 223344556677",
+    "response": "## Tracking Information for AWB: 223344556677\n\n**Current Status:** EXCEPTION  \n**Current Location:** N/A\n\n### Tracking History:\n\n| Date & Time | Location | Status |\n|-------------|----------|--------|",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 10,
+      "issues": [],
+      "strengths": [
+        "Appropriate length",
+        "Contains tracking info",
+        "No errors",
+        "No emojis (correct)"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "track 227047923763",
+    "response": "## Tracking Information for AWB: 227047923763\n\n**Current Status:** EXCEPTION  \n**Current Location:** Riyadh\n\n### Tracking History:\n\n| Date & Time | Location | Status |\n|-------------|----------|--------|\n| 2025-03-06 15:55 | Riyadh | Shipment Has Been Returned To Shipper |\n| 2025-03-05 07:31 | Riyadh | Shipmet Is Being Rerouted To New Address |\n| 2025-02-26 16:30 | Riyadh | Shipment Is Under Return Process To SMSA Facility |\n| 2025-02-26 12:10 | Riyadh | Arrived Delivery Facility |\n| 2025-02-26 00:17 | Riyadh | Arrived Delivery Facility |\n| 2025-02-25 11:23 | Riyadh | Shipment Departed SMSA Sorting Facility |\n| 2025-02-25 11:22 | Riyadh | Shipment Received at SMSA Sorting Facility |\n| 2025-02-22 11:15 | Riyadh | Collected from Retail |\n| 2025-02-22 09:54 | Riyadh | Shipment Is Under Return Process To SMSA Facility |\n| 2025-02-19 07:16 | Unknown location | SMS sent to consignee |\n| 2025-02-15 13:21 | Riyadh | Awaiting Consignee for Collection and SMS sent at Ar Rabwah, Omar Ibn Abdullaziz Road (Jarir Bookstore Exit-14) https://goo.gl/maps/Gp3LPUrxrNx |\n| 2025-02-14 01:46 | Riyadh | Arrived Delivery Facility |\n| 2025-02-13 16:18 | Riyadh | Shipment Picked up from the shipper. |",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 10,
+      "issues": [],
+      "strengths": [
+        "Appropriate length",
+        "Contains tracking info",
+        "No errors",
+        "No emojis (correct)"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "when will it arrive?",
+    "response": "To check the arrival time of your shipment, I'll need the Air Waybill (AWB) number. Could you please provide it?",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 10,
+      "issues": [],
+      "strengths": [
+        "Appropriate length",
+        "No errors",
+        "Asks clarifying questions",
+        "No emojis (correct)"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "track 456799871238",
+    "response": "## Tracking Information for AWB: 456799871238\n\n**Current Status:** EXCEPTION  \n**Current Location:** N/A\n\n### Tracking History:\n\n| Date & Time | Location | Status |\n|-------------|----------|--------|",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 10,
+      "issues": [],
+      "strengths": [
+        "Appropriate length",
+        "Contains tracking info",
+        "No errors",
+        "No emojis (correct)"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "is it delivered?",
+    "response": "To check if your shipment has been delivered, I'll need the Air Waybill (AWB) number. Could you please provide the AWB number for the shipment you're inquiring about?",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 10,
+      "issues": [],
+      "strengths": [
+        "Appropriate length",
+        "No errors",
+        "Asks clarifying questions",
+        "No emojis (correct)"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "track 123456789012",
+    "response": "## Tracking Information for AWB: 123456789012\n\n**Current Status:** EXCEPTION  \n**Current Location:** N/A\n\n### Tracking History:\n\n| Date & Time | Location | Status |\n|-------------|----------|--------|",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 10,
+      "issues": [],
+      "strengths": [
+        "Appropriate length",
+        "Contains tracking info",
+        "No errors",
+        "No emojis (correct)"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "service centers in Riyadh",
+    "response": "## 📍 SMSA Service Centers\n\n**Location:** Riyadh, SA  \n**Found:** 81 center(s)\n\n| Name | Address | Region | Phone | Hours | Features |\n|------|---------|--------|-------|-------|----------|\n| SMSA RUH Sultanah Swaidi Branch | KSA 41112 - RUH Sultanah Swaidi St. | Central | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.59843612,46.68720934) |\n| SMSA RUH Futa Hibatula Khazraji Branch | KSA 41181 - RUH Futa Hibatula Khazraji St.(Batha) | Central | 920009999 | 10:00-14:00, 16:00-20:00 | [📍 Map](https://maps.google.com/?q=24.64257672,46.71514794) |\n| SMSA RUH Mansourah Al Kharj Branch | KSA 41116 - RUH Mansourah Al Kharj Rd. | Central | 920009999 | 09:00-21:00 | [📍 Map](https://maps.google.com/?q=24.6355558,46.6228259) |\n| SMSA RUH Mansourah Muhammad Bin Shuail Branch | KSA 41231 - RUH Mansourah Muhammad Bin Shuail St. | Central | 920009999 | 9:00-21:00 | [📍 Map](https://maps.google.com/?q=24.60774,46.74682) |\n| SMSA RUH Marqab Ghurabi Branch | KSA 41113 - RUH Marqab Ghurabi St. | Central | 920009999 | 9:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.64624912,46.71851269) |\n| SMSA RUH Diriya Imam Saud Bn AAziz Mohd Branch | KSA 41216 - RUH Diriya Imam Saud Bn AAziz Mohd Rd. | Central | 920009999 | 10:00-14:00, 16:00-20:00 | [📍 Map](https://maps.google.com/?q=24.75618003,46.56836288) |\n| SMSA RUH Dhahrat Laban Taif Branch | KSA 41177 - RUH Dhahrat Laban Taif St. (Mega) | Central | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.64012783,46.54179765) |\n| SMSA RUH Dhahrat Laban Shifa Branch | KSA 41153 - RUH Dhahrat Laban Shifa St. | Central | 920009999 | 10:00-14:00, 16:00-20:00 | [📍 Map](https://maps.google.com/?q=24.63248878,46.56452906) |\n| SMSA RUH Mahdiyah Alsail Alkhabeer Branch | KSA 41193 - RUH Mahdiyah Alsail Alkhabeer Rd. | Central | 920009999 | 10:00-14:00, 16:00-20:00 | [📍 Map](https://maps.google.com/?q=24.65997947,46.51972152) |\n| SMSA RUH Malaz Salah Din Ayubi Branch | KSA 41127 - RUH Malaz Salah Din Ayubi Rd. (Siteen) | Central | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.66567805,46.73127831) |\n| SMSA RUH Rabwa Omar Abdulaziz Branch | KSA 41115 - RUH Rabwa Omar Abdulaziz Rd. (Exit-14) | Central | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.69166868,46.76554913) |\n| SMSA RUH Rabwah Ahsa Branch | KSA 41111 - RUH Rabwah Ahsa St. | Central | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.59850588,46.73240854) |\n| SMSA RUH Ishbiliya Imam Abdulah Bn Saud Branch | KSA 41148 - RUH Ishbiliya Imam Abdulah Bn Saud Rd. | Central | 920009999 | 8:00-22:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.79150207,46.76783058) |\n| SMSA RUH Shuhada Khaled Ibn Al Walid Branch | KSA 41227 - RUH Shuhada Khaled Ibn Al Walid St. | Central | 920009999 | 8:00-23:00 | [📍 Map](https://maps.google.com/?q=24.79514474,46.74247) |\n| SMSA RUH Hamra King Abdullah Branch | KSA 41149 - RUH Hamra King Abdullah Rd. | Central | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.767374,46.75584057) |\n| SMSA RUH Qadisiyah Sheikh Jaber Branch | KSA 41156 - RUH Qadisiyah Sheikh Jaber St. | Central | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.81620028,46.80431317) |\n| SMSA RUH Maizilah Janadriyah Branch Branch | KSA 41239 - RUH Maizilah Janadriyah Branch Rd. | N/A | 920009999 | 10:00-14:00, 16:00-20:00 | [📍 Map](https://maps.google.com/?q=24.80286109,46.85395484) |\n| SMSA RUH Nahdah Pr Bandar Ibn Abdulaziz Branch | KSA 41145 - RUH Nahdah Pr Bandar Ibn Abdulaziz St. | Central | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.75936645,46.79466012) |\n| SMSA RUH Nahdah Salman Al Farsi Branch | KSA 41159 - RUH Nahdah Salman Al Farsi St. | Central | 920009999 | 10:00-14:00, 16:00-20:00 | [📍 Map](https://maps.google.com/?q=24.756687,46.81533049) |\n| SMSA RUH Quds P Mohd Bn Faisal Bn Turki Branch | KSA 41219 - RUH Quds P Mohd Bn Faisal Bn Turki Rd. | Central | 920009999 | 9:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.7574508,46.7609357) |\n\n*Showing first 20 of 81 centers*\n\n💡 **Tips:**\n- Click 📍 Map to get directions\n- ❄️ Cold Box available for temperature-sensitive items\n- Call ahead to confirm hours during holidays",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 8,
+      "issues": [
+        "Response too long",
+        "Contains emojis (should not)"
+      ],
+      "strengths": [
+        "Contains location info",
+        "No errors",
+        "Asks clarifying questions"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "find SMSA offices in Jeddah",
+    "response": "## 📍 SMSA Service Centers\n\n**Location:** Jeddah, SA  \n**Found:** 44 center(s)\n\n| Name | Address | Region | Phone | Hours | Features |\n|------|---------|--------|-------|-------|----------|\n| SMSA JED Baghdadiyah Gharbiah Hail Branch | KSA 42206 - JED Baghdadiyah Gharbiah Hail St. | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.49958888,39.18075631) |\n| SMSA JED Fayha Bakhashab Branch | KSA 42323 - JED Fayha Bakhashab St. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=21.48549693,39.21859408) |\n| SMSA JED Qiwayzah Jack Branch | KSA 42270 - JED Qiwayzah Jack Rd. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.4990943,39.27765455) |\n| SMSA JED Tayseer Abu Buraidah Al Ashari Branch | KSA 42242 - JED Tayseer Abu Buraidah Al Ashari St. | N/A | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=21.54987649,39.28290888) |\n| SMSA JED Bani Malik Falastin Branch | KSA 42212 - JED Bani Malik Falastin St. | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.53467393,39.20884814) |\n| SMSA JED Naseem Bani Malek Branch | KSA 42241 - JED Naseem Bani Malek St. | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.52775093,39.23077686) |\n| SMSA JED Ruwais Qadat Al Fikr Branch | KSA 42204 - JED Ruwais Qadat Al Fikr Rd. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=21.52646075,39.17788989) |\n| SMSA JED Sharafiyah King Abdullah Branch | KSA 42215 - JED Sharafiyah King Abdullah Rd. | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.51144531,39.18833639) |\n| SMSA JED Wurood Prince Majed Branch | KSA 42269 - JED Wurood Prince Majed Rd. (Mega) | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.51743141,39.21382653) |\n| SMSA JED Waha Mohd Bin Soliman Albassam Branch | KSA 42311 - JED Waha Mohd Bin Soliman Albassam St. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=21.55066449,39.23811549) |\n| SMSA JED Aziziyah King Fahd Branch | KSA 42236 - JED Aziziyah King Fahd Rd. | Western | 920009999 | 9:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.55140545,39.18948219) |\n| SMSA JED Aziziyah Prince Majed Branch | KSA 42265 - JED Aziziyah Prince Majed Rd. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=21.55621421,39.20376561) |\n| SMSA JED Faisaliyyah Makarunah Branch | KSA 42310 - JED Faisaliyyah Makarunah Rd. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=21.57719916,39.18904948) |\n| SMSA JED Bawady King Fahd Branch | KSA 42205 - JED Bawady King Fahd Rd. | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.59814729,39.1732022) |\n| SMSA JED Bryman Mohammed Bin Suraihid Branch | KSA 42324 - JED Bryman Mohammed Bin Suraihid St. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=21.65468968,39.24881216) |\n| SMSA JED Rayaan Habeeb Bin Awf Al Abdi Branch | KSA 42325 - JED Rayaan Habeeb Bin Awf Al Abdi St. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=21.70147658,39.21127297) |\n| SMSA JED Salehiyah Yasir Bn Amr AlKanany St Branch | KSA 42294 - JED Salehiyah Yasir Bn Amr AlKanany St | Western | 920009999 | 9:00-12:00, 16:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.76594807,39.20323137) |\n| SMSA JED Hamadaniyah Haramain Branch | KSA 42232 - JED Hamadaniyah Haramain Rd. | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.74339231,39.19090536) |\n| SMSA JED Mukatat Ryad Ahmed Mki Bn Atar Branch | KSA 42316 - JED Mukatat Ryad Ahmed Mki Bn Atar St. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=21.84976716,39.19938684) |\n| SMSA JED Obhur Shamaliya Aabir Qarath Branch | KSA 42279 - JED Obhur Shamaliya Aabir Qarath St. | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.7571318,39.1197829) |\n\n*Showing first 20 of 44 centers*\n\n💡 **Tips:**\n- Click 📍 Map to get directions\n- ❄️ Cold Box available for temperature-sensitive items\n- Call ahead to confirm hours during holidays",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 8,
+      "issues": [
+        "Response too long",
+        "Contains emojis (should not)"
+      ],
+      "strengths": [
+        "Contains location info",
+        "No errors",
+        "Asks clarifying questions"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "where are centers in Makkah",
+    "response": "## 📍 SMSA Service Centers\n\n**Location:** Makkah, SA  \n**Found:** 20 center(s)\n\n| Name | Address | Region | Phone | Hours | Features |\n|------|---------|--------|-------|-------|----------|\n| SMSA MAK Nuzha Old Makkah-Jeddah Branch | KSA 42220 - MAK Nuzha Old Makkah-Jeddah Rd. | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.43779748,39.79408544) |\n| SMSA MAK Uttaybiyah Jizair Branch | KSA 42275 - MAK Uttaybiyah Jizair St. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=21.44181578,39.81890929) |\n| SMSA MAK Aziziyah Masjid Haram Branch | KSA 42221 - MAK Aziziyah Masjid Haram St. | Western | 920009999 | 9:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.41352982,39.86367462) |\n| SMSA MAK Rusayfah Pr. Nasser Ibn Masoud Branch | KSA 42253 - MAK Rusayfah Pr. Nasser Ibn Masoud St. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.4104055,39.79223947) |\n| SMSA MAK Awali Ibrahim Al Juffali Branch | KSA 42246 - MAK Awali Ibrahim Al Juffali St. | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.35658998,39.88603613) |\n| SMSA MAK Zaidi Pr. Naif Abdulaziz Branch | KSA 42289 - MAK Zaidi Pr. Naif Abdulaziz Rd. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.40104776,39.70802872) |\n| SMSA MAK Kakiyyah Third Ring Branch | KSA 42276 - MAK Kakiyyah Third Ring Rd. (Mega) | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.38927971,39.81402871) |\n| SMSA MAK Batha Quraish Qadi Branch | KSA 42293 - MAK Batha Quraish Qadi Rd. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.35728865,39.83077186) |\n| SMSA MAK Shawqiya Dr Abdul Qadir Koshak Branch | KSA 42254 - MAK Shawqiya Dr Abdul Qadir Koshak St. | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.37644544,39.78791414) |\n| SMSA MAK Waly Ahd Lith Branch | KSA 42298 - MAK Waly Ahd Lith Rd. | Western | 920009999 | 9:00-12:30, 16:30-21:00 | [📍 Map](https://maps.google.com/?q=21.34099118,39.69388319) |\n| SMSA MAK Akishiya Al Lith Branch | KSA 42330 - MAK Akishiya Al Lith Rd. | N/A | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=21.35194516,39.7843058) |\n| SMSA MAK Shara'ei Muhandes Umar Qadi Branch | KSA 42262 - MAK Shara'ei Muhandes Umar Qadi St. | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.47307185,39.94032246) |\n| SMSA MAK Rashidiyyah Bilal Ibn Duwaim Branch | KSA 42331 - MAK Rashidiyyah Bilal Ibn Duwaim St. | N/A | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=21.4597578,39.96280845) |\n| SMSA MAK Rashidiyyah Arafat Ash Sharaya Branch | KSA 42243 - MAK Rashidiyyah Arafat Ash Sharaya Rd. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=21.48445049,39.99831107) |\n| SMSA MAK Shariah King Faisal Branch | KSA 42299 - MAK Shariah King Faisal Rd. | Western | 920009999 | 9:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.4882459,39.94484019) |\n| SMSA MAK Khansaa Al Hajj Branch | KSA 42312 - MAK Khansaa Al Hajj St. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.45007548,39.84868568) |\n| SMSA MAK Jabl An Nur King Faisal Branch | KSA 42245 - MAK Jabl An Nur King Faisal Rd. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.4467203,39.8611499) |\n| SMSA MAK Umrah Madinah Munawarrah Branch | KSA 42219 - MAK Umrah Madinah Munawarrah Rd. | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.4918805,39.79390833) |\n| SMSA MAK Nawariyah Madinah Branch | KSA 42304 - MAK Nawariyah Madinah Rd. | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.55027221,39.77589365) |\n| SMSA MAK Fayha Alkhahif Al Anbari Branch | KSA 42234 - MAK Fayha Alkhahif Al Anbari St. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.45658138,39.76257279) |\n\n💡 **Tips:**\n- Click 📍 Map to get directions\n- ❄️ Cold Box available for temperature-sensitive items\n- Call ahead to confirm hours during holidays",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 8,
+      "issues": [
+        "Response too long",
+        "Contains emojis (should not)"
+      ],
+      "strengths": [
+        "Contains location info",
+        "No errors",
+        "Asks clarifying questions"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "show me locations in Madinah",
+    "response": "## 📍 SMSA Service Centers\n\n**Location:** Madinah, SA  \n**Found:** 12 center(s)\n\n| Name | Address | Region | Phone | Hours | Features |\n|------|---------|--------|-------|-------|----------|\n| SMSA MED Oyoon Othman Ibn Afan Branch | KSA 42223 - MED Oyoon Othman Ibn Afan Rd. | Western | 920009999 | 8:00-23:00 | [📍 Map](https://maps.google.com/?q=24.4893546,39.60298026) |\n| SMSA MED Bani Harithah Airport Branch | KSA 42222 - MED Bani Harithah Airport Rd. | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.48829102,39.63537825) |\n| SMSA MED Duwaimah Qiba Branch | KSA 42248 - MED Duwaimah Qiba Rd. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=24.4420396,39.61561548) |\n| SMSA MED Sultana Abu Bakr As Siddiq Branch | KSA 42286 - MED Sultana Abu Bakr As Siddiq Rd. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.48723278,39.57648887) |\n| SMSA MED Matar Abdullah Ibn Wadiah Branch | KSA 42332 - MED Matar Abdullah Ibn Wadiah St. | N/A | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=24.53794504,39.69118732) |\n| SMSA MED Aziziyah Pr. Naif Abdulaziz Branch | KSA 42224 - MED Aziziyah Pr. Naif Abdulaziz Rd. | Western | 920009999 | 8:00-22:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.46772359,39.54748821) |\n| SMSA MED King Fahd Khalid Al Quraishi Branch | KSA 42306 - MED King Fahd Khalid Al Quraishi St. | Western | 920009999 | 10:00-15:00, 16:00-19:00 | [📍 Map](https://maps.google.com/?q=24.49640865,39.7068393) |\n| SMSA MED Khalidiyah King Abdullah Branch | KSA 42266 - MED Khalidiyah King Abdullah Rd. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.45540224,39.66845563) |\n| SMSA MED Daheetha Hassan Ibn Abdulaziz Branch | KSA 42319 - MED Daheetha Hassan Ibn Abdulaziz St. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=24.42482641,39.49943682) |\n| SMSA MED Shuran Qiba Branch | KSA 42314 - MED Shuran Qiba Rd. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=24.39832548,39.63381155) |\n| SMSA MED Ranona Abas Ibn Abadah Branch | KSA 42271 - MED Ranona Abas Ibn Abadah Rd. (Hijja) | Western | 920009999 | 9:00-12:00, 16:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.42448149,39.59221694) |\n| SMSA MED Hamra Al Asaad (KFSH) Branch | KSA 42322 - MED Hamra Al Asaad (KFSH) | N/A | 920009999 | 14:00-16:00 | [📍 Map](https://maps.google.com/?q=24.35213846,39.52681714) |\n\n💡 **Tips:**\n- Click 📍 Map to get directions\n- ❄️ Cold Box available for temperature-sensitive items\n- Call ahead to confirm hours during holidays",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 8,
+      "issues": [
+        "Response too long",
+        "Contains emojis (should not)"
+      ],
+      "strengths": [
+        "No errors",
+        "Asks clarifying questions"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "service centers in Dammam",
+    "response": "## 📍 SMSA Service Centers\n\n**Location:** Dammam, SA  \n**Found:** 20 center(s)\n\n| Name | Address | Region | Phone | Hours | Features |\n|------|---------|--------|-------|-------|----------|\n| SMSA DMM Dahia King Fahd Hamad Bn Osama Branch | KSA 43364 - DMM Dahia King Fahd Hamad Bn Osama St. | Eastern | 920009999 | 9:00-12:00, 13:00-18:00 | [📍 Map](https://maps.google.com/?q=26.42176151,50.00305118) |\n| SMSA DMM Fursan Arwa'a Bint Rabea’a Branch | KSA 43357 - DMM Fursan Arwa'a Bint Rabea’a St. | Eastern | 920009999 | 9:00-12:00, 13:00-18:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=26.35637267,49.95828449) |\n| SMSA DMM 2nd Industrial City Pr. Nawaf Branch | KSA 43320 - DMM 2nd Industrial City Pr. Nawaf St. | Eastern | 920009999 | 8:30-12:00, 13:00-17:30 | [📍 Map](https://maps.google.com/?q=26.24543543,49.98183114) |\n| SMSA KBR Rakkah Rawabi King Fahd Branch | KSA 43305 - KBR Rakkah Rawabi King Fahd Rd. | Eastern | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=26.33292153,50.20226757) |\n| SMSA DMM Dammam Natl. Guard Hospital (NGH) Branch | KSA 43339 - DMM Dammam Natl. Guard Hospital (NGH) | N/A | 920009999 | 08:00-16:00 | [📍 Map](https://maps.google.com/?q=26.35709283,50.17709319) |\n| SMSA DMM Amamrah King Saud Branch | KSA 43304 - DMM Amamrah King Saud Rd. | Eastern | 920009999 | 9:00-21:00 | [📍 Map](https://maps.google.com/?q=26.44246344,50.10882179) |\n| SMSA DMM Mazruiyah King Faisal Branch | KSA 43369 - DMM Mazruiyah King Faisal Rd. | Eastern | 920009999 | 9:00-12:00, 13:00-18:00 | [📍 Map](https://maps.google.com/?q=26.43635831,50.12546536) |\n| SMSA DMM Shati Pr. Mohammed Branch | KSA 43360 - DMM Shati Pr. Mohammed St. | Eastern | 920009999 | 10:00-13:00, 14:00-19:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=26.47449931,50.12528289) |\n| SMSA DMM Zuhur Abu Hurairah Branch | KSA 43348 - DMM Zuhur Abu Hurairah St. | Eastern | 920009999 | 10:00-12:00, 13:00-19:00 | [📍 Map](https://maps.google.com/?q=26.45104281,50.09200016) |\n| SMSA DMM Khalidiyah Shamaliyah Dammam Hub Branch | KSA 43324 - DMM Khalidiyah Shamaliyah Dammam Hub | Eastern | 920009999 | 8:00-22:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=26.41425014,50.13648495) |\n| SMSA DMM Ghirnatah King Khalid Branch | KSA 43325 - DMM Ghirnatah King Khalid St. | N/A | 920009999 | 10:00-12:00, 13:00-19:00 | [📍 Map](https://maps.google.com/?q=26.43136978,50.08032809) |\n| SMSA DMM Adamah 18th Branch | KSA 43336 - DMM Adamah 18th St. | Eastern | 920009999 | 10:00-14:00, 15:00-19:00 | [📍 Map](https://maps.google.com/?q=26.4382021,50.09644378) |\n| SMSA DMM Ibn Khaldun King Fahd Branch | KSA 43330 - DMM Ibn Khaldun King Fahd Rd. | Eastern | 920009999 | 10:00-12:00, 13:00-19:00 | [📍 Map](https://maps.google.com/?q=26.42132535,50.09077237) |\n| SMSA DMM Nuzha Othman Bin Afan Branch | KSA 43370 - DMM Nuzha Othman Bin Afan St. | Eastern | 920009999 | 9:00-12:00, 13:00-18:00 | [📍 Map](https://maps.google.com/?q=26.38525303,50.10444992) |\n| SMSA DMM Rawdah Pr. Naif Abdulaziz Branch | KSA 43332 - DMM Rawdah Pr. Naif Abdulaziz Rd. | Eastern | 920009999 | 9:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=26.40227572,50.08516299) |\n| SMSA DMM Abdullah Fouad Pr. Mohd. Fahd Branch | KSA 43319 - DMM Abdullah Fouad Pr. Mohd. Fahd St. | Eastern | 920009999 | 8:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=26.41895955,50.1109375) |\n| SMSA DMM Badr Abu Bakr Siddiq Branch | KSA 43303 - DMM Badr Abu Bakr Siddiq St.(Block 91) | Eastern | 920009999 | 8:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=26.41299996,50.03156281) |\n| SMSA DMM Uhud King Saud Branch | KSA 43345 - DMM Uhud King Saud St. (Al Dakatra) | Eastern | 920009999 | 9:00-12:00, 13:00-18:00 | [📍 Map](https://maps.google.com/?q=26.42539724,50.03521728) |\n| SMSA DMM Nada Imam Muhammad Abdulwahab Branch | KSA 43354 - DMM Nada Imam Muhammad Abdulwahab St. | Eastern | 920009999 | 8:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=26.36579462,50.07495762) |\n| SMSA DMM Faisaliyyah Omar Ibn Khatab Branch | KSA 43341 - DMM Faisaliyyah Omar Ibn Khatab St. | Eastern | 920009999 | 9:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=26.40178752,50.06490628) |\n\n💡 **Tips:**\n- Click 📍 Map to get directions\n- ❄️ Cold Box available for temperature-sensitive items\n- Call ahead to confirm hours during holidays",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 8,
+      "issues": [
+        "Response too long",
+        "Contains emojis (should not)"
+      ],
+      "strengths": [
+        "Contains location info",
+        "No errors",
+        "Asks clarifying questions"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "SMSA branches in Riyadh",
+    "response": "## 📍 SMSA Service Centers\n\n**Location:** Riyadh, SA  \n**Found:** 81 center(s)\n\n| Name | Address | Region | Phone | Hours | Features |\n|------|---------|--------|-------|-------|----------|\n| SMSA RUH Sultanah Swaidi Branch | KSA 41112 - RUH Sultanah Swaidi St. | Central | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.59843612,46.68720934) |\n| SMSA RUH Futa Hibatula Khazraji Branch | KSA 41181 - RUH Futa Hibatula Khazraji St.(Batha) | Central | 920009999 | 10:00-14:00, 16:00-20:00 | [📍 Map](https://maps.google.com/?q=24.64257672,46.71514794) |\n| SMSA RUH Mansourah Al Kharj Branch | KSA 41116 - RUH Mansourah Al Kharj Rd. | Central | 920009999 | 09:00-21:00 | [📍 Map](https://maps.google.com/?q=24.6355558,46.6228259) |\n| SMSA RUH Mansourah Muhammad Bin Shuail Branch | KSA 41231 - RUH Mansourah Muhammad Bin Shuail St. | Central | 920009999 | 9:00-21:00 | [📍 Map](https://maps.google.com/?q=24.60774,46.74682) |\n| SMSA RUH Marqab Ghurabi Branch | KSA 41113 - RUH Marqab Ghurabi St. | Central | 920009999 | 9:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.64624912,46.71851269) |\n| SMSA RUH Diriya Imam Saud Bn AAziz Mohd Branch | KSA 41216 - RUH Diriya Imam Saud Bn AAziz Mohd Rd. | Central | 920009999 | 10:00-14:00, 16:00-20:00 | [📍 Map](https://maps.google.com/?q=24.75618003,46.56836288) |\n| SMSA RUH Dhahrat Laban Taif Branch | KSA 41177 - RUH Dhahrat Laban Taif St. (Mega) | Central | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.64012783,46.54179765) |\n| SMSA RUH Dhahrat Laban Shifa Branch | KSA 41153 - RUH Dhahrat Laban Shifa St. | Central | 920009999 | 10:00-14:00, 16:00-20:00 | [📍 Map](https://maps.google.com/?q=24.63248878,46.56452906) |\n| SMSA RUH Mahdiyah Alsail Alkhabeer Branch | KSA 41193 - RUH Mahdiyah Alsail Alkhabeer Rd. | Central | 920009999 | 10:00-14:00, 16:00-20:00 | [📍 Map](https://maps.google.com/?q=24.65997947,46.51972152) |\n| SMSA RUH Malaz Salah Din Ayubi Branch | KSA 41127 - RUH Malaz Salah Din Ayubi Rd. (Siteen) | Central | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.66567805,46.73127831) |\n| SMSA RUH Rabwa Omar Abdulaziz Branch | KSA 41115 - RUH Rabwa Omar Abdulaziz Rd. (Exit-14) | Central | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.69166868,46.76554913) |\n| SMSA RUH Rabwah Ahsa Branch | KSA 41111 - RUH Rabwah Ahsa St. | Central | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.59850588,46.73240854) |\n| SMSA RUH Ishbiliya Imam Abdulah Bn Saud Branch | KSA 41148 - RUH Ishbiliya Imam Abdulah Bn Saud Rd. | Central | 920009999 | 8:00-22:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.79150207,46.76783058) |\n| SMSA RUH Shuhada Khaled Ibn Al Walid Branch | KSA 41227 - RUH Shuhada Khaled Ibn Al Walid St. | Central | 920009999 | 8:00-23:00 | [📍 Map](https://maps.google.com/?q=24.79514474,46.74247) |\n| SMSA RUH Hamra King Abdullah Branch | KSA 41149 - RUH Hamra King Abdullah Rd. | Central | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.767374,46.75584057) |\n| SMSA RUH Qadisiyah Sheikh Jaber Branch | KSA 41156 - RUH Qadisiyah Sheikh Jaber St. | Central | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.81620028,46.80431317) |\n| SMSA RUH Maizilah Janadriyah Branch Branch | KSA 41239 - RUH Maizilah Janadriyah Branch Rd. | N/A | 920009999 | 10:00-14:00, 16:00-20:00 | [📍 Map](https://maps.google.com/?q=24.80286109,46.85395484) |\n| SMSA RUH Nahdah Pr Bandar Ibn Abdulaziz Branch | KSA 41145 - RUH Nahdah Pr Bandar Ibn Abdulaziz St. | Central | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.75936645,46.79466012) |\n| SMSA RUH Nahdah Salman Al Farsi Branch | KSA 41159 - RUH Nahdah Salman Al Farsi St. | Central | 920009999 | 10:00-14:00, 16:00-20:00 | [📍 Map](https://maps.google.com/?q=24.756687,46.81533049) |\n| SMSA RUH Quds P Mohd Bn Faisal Bn Turki Branch | KSA 41219 - RUH Quds P Mohd Bn Faisal Bn Turki Rd. | Central | 920009999 | 9:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.7574508,46.7609357) |\n\n*Showing first 20 of 81 centers*\n\n💡 **Tips:**\n- Click 📍 Map to get directions\n- ❄️ Cold Box available for temperature-sensitive items\n- Call ahead to confirm hours during holidays",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 8,
+      "issues": [
+        "Response too long",
+        "Contains emojis (should not)"
+      ],
+      "strengths": [
+        "Contains location info",
+        "No errors",
+        "Asks clarifying questions"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "find offices near me in Jeddah",
+    "response": "## 📍 SMSA Service Centers\n\n**Location:** Jeddah, SA  \n**Found:** 44 center(s)\n\n| Name | Address | Region | Phone | Hours | Features |\n|------|---------|--------|-------|-------|----------|\n| SMSA JED Baghdadiyah Gharbiah Hail Branch | KSA 42206 - JED Baghdadiyah Gharbiah Hail St. | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.49958888,39.18075631) |\n| SMSA JED Fayha Bakhashab Branch | KSA 42323 - JED Fayha Bakhashab St. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=21.48549693,39.21859408) |\n| SMSA JED Qiwayzah Jack Branch | KSA 42270 - JED Qiwayzah Jack Rd. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.4990943,39.27765455) |\n| SMSA JED Tayseer Abu Buraidah Al Ashari Branch | KSA 42242 - JED Tayseer Abu Buraidah Al Ashari St. | N/A | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=21.54987649,39.28290888) |\n| SMSA JED Bani Malik Falastin Branch | KSA 42212 - JED Bani Malik Falastin St. | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.53467393,39.20884814) |\n| SMSA JED Naseem Bani Malek Branch | KSA 42241 - JED Naseem Bani Malek St. | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.52775093,39.23077686) |\n| SMSA JED Ruwais Qadat Al Fikr Branch | KSA 42204 - JED Ruwais Qadat Al Fikr Rd. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=21.52646075,39.17788989) |\n| SMSA JED Sharafiyah King Abdullah Branch | KSA 42215 - JED Sharafiyah King Abdullah Rd. | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.51144531,39.18833639) |\n| SMSA JED Wurood Prince Majed Branch | KSA 42269 - JED Wurood Prince Majed Rd. (Mega) | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.51743141,39.21382653) |\n| SMSA JED Waha Mohd Bin Soliman Albassam Branch | KSA 42311 - JED Waha Mohd Bin Soliman Albassam St. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=21.55066449,39.23811549) |\n| SMSA JED Aziziyah King Fahd Branch | KSA 42236 - JED Aziziyah King Fahd Rd. | Western | 920009999 | 9:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.55140545,39.18948219) |\n| SMSA JED Aziziyah Prince Majed Branch | KSA 42265 - JED Aziziyah Prince Majed Rd. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=21.55621421,39.20376561) |\n| SMSA JED Faisaliyyah Makarunah Branch | KSA 42310 - JED Faisaliyyah Makarunah Rd. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=21.57719916,39.18904948) |\n| SMSA JED Bawady King Fahd Branch | KSA 42205 - JED Bawady King Fahd Rd. | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.59814729,39.1732022) |\n| SMSA JED Bryman Mohammed Bin Suraihid Branch | KSA 42324 - JED Bryman Mohammed Bin Suraihid St. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=21.65468968,39.24881216) |\n| SMSA JED Rayaan Habeeb Bin Awf Al Abdi Branch | KSA 42325 - JED Rayaan Habeeb Bin Awf Al Abdi St. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=21.70147658,39.21127297) |\n| SMSA JED Salehiyah Yasir Bn Amr AlKanany St Branch | KSA 42294 - JED Salehiyah Yasir Bn Amr AlKanany St | Western | 920009999 | 9:00-12:00, 16:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.76594807,39.20323137) |\n| SMSA JED Hamadaniyah Haramain Branch | KSA 42232 - JED Hamadaniyah Haramain Rd. | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.74339231,39.19090536) |\n| SMSA JED Mukatat Ryad Ahmed Mki Bn Atar Branch | KSA 42316 - JED Mukatat Ryad Ahmed Mki Bn Atar St. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=21.84976716,39.19938684) |\n| SMSA JED Obhur Shamaliya Aabir Qarath Branch | KSA 42279 - JED Obhur Shamaliya Aabir Qarath St. | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.7571318,39.1197829) |\n\n*Showing first 20 of 44 centers*\n\n💡 **Tips:**\n- Click 📍 Map to get directions\n- ❄️ Cold Box available for temperature-sensitive items\n- Call ahead to confirm hours during holidays",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 8,
+      "issues": [
+        "Response too long",
+        "Contains emojis (should not)"
+      ],
+      "strengths": [
+        "Contains location info",
+        "No errors",
+        "Asks clarifying questions"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "where can I drop off in Makkah",
+    "response": "## 📍 SMSA Service Centers\n\n**Location:** Makkah, SA  \n**Found:** 20 center(s)\n\n| Name | Address | Region | Phone | Hours | Features |\n|------|---------|--------|-------|-------|----------|\n| SMSA MAK Nuzha Old Makkah-Jeddah Branch | KSA 42220 - MAK Nuzha Old Makkah-Jeddah Rd. | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.43779748,39.79408544) |\n| SMSA MAK Uttaybiyah Jizair Branch | KSA 42275 - MAK Uttaybiyah Jizair St. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=21.44181578,39.81890929) |\n| SMSA MAK Aziziyah Masjid Haram Branch | KSA 42221 - MAK Aziziyah Masjid Haram St. | Western | 920009999 | 9:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.41352982,39.86367462) |\n| SMSA MAK Rusayfah Pr. Nasser Ibn Masoud Branch | KSA 42253 - MAK Rusayfah Pr. Nasser Ibn Masoud St. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.4104055,39.79223947) |\n| SMSA MAK Awali Ibrahim Al Juffali Branch | KSA 42246 - MAK Awali Ibrahim Al Juffali St. | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.35658998,39.88603613) |\n| SMSA MAK Zaidi Pr. Naif Abdulaziz Branch | KSA 42289 - MAK Zaidi Pr. Naif Abdulaziz Rd. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.40104776,39.70802872) |\n| SMSA MAK Kakiyyah Third Ring Branch | KSA 42276 - MAK Kakiyyah Third Ring Rd. (Mega) | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.38927971,39.81402871) |\n| SMSA MAK Batha Quraish Qadi Branch | KSA 42293 - MAK Batha Quraish Qadi Rd. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.35728865,39.83077186) |\n| SMSA MAK Shawqiya Dr Abdul Qadir Koshak Branch | KSA 42254 - MAK Shawqiya Dr Abdul Qadir Koshak St. | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.37644544,39.78791414) |\n| SMSA MAK Waly Ahd Lith Branch | KSA 42298 - MAK Waly Ahd Lith Rd. | Western | 920009999 | 9:00-12:30, 16:30-21:00 | [📍 Map](https://maps.google.com/?q=21.34099118,39.69388319) |\n| SMSA MAK Akishiya Al Lith Branch | KSA 42330 - MAK Akishiya Al Lith Rd. | N/A | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=21.35194516,39.7843058) |\n| SMSA MAK Shara'ei Muhandes Umar Qadi Branch | KSA 42262 - MAK Shara'ei Muhandes Umar Qadi St. | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.47307185,39.94032246) |\n| SMSA MAK Rashidiyyah Bilal Ibn Duwaim Branch | KSA 42331 - MAK Rashidiyyah Bilal Ibn Duwaim St. | N/A | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=21.4597578,39.96280845) |\n| SMSA MAK Rashidiyyah Arafat Ash Sharaya Branch | KSA 42243 - MAK Rashidiyyah Arafat Ash Sharaya Rd. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=21.48445049,39.99831107) |\n| SMSA MAK Shariah King Faisal Branch | KSA 42299 - MAK Shariah King Faisal Rd. | Western | 920009999 | 9:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.4882459,39.94484019) |\n| SMSA MAK Khansaa Al Hajj Branch | KSA 42312 - MAK Khansaa Al Hajj St. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.45007548,39.84868568) |\n| SMSA MAK Jabl An Nur King Faisal Branch | KSA 42245 - MAK Jabl An Nur King Faisal Rd. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.4467203,39.8611499) |\n| SMSA MAK Umrah Madinah Munawarrah Branch | KSA 42219 - MAK Umrah Madinah Munawarrah Rd. | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.4918805,39.79390833) |\n| SMSA MAK Nawariyah Madinah Branch | KSA 42304 - MAK Nawariyah Madinah Rd. | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.55027221,39.77589365) |\n| SMSA MAK Fayha Alkhahif Al Anbari Branch | KSA 42234 - MAK Fayha Alkhahif Al Anbari St. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.45658138,39.76257279) |\n\n💡 **Tips:**\n- Click 📍 Map to get directions\n- ❄️ Cold Box available for temperature-sensitive items\n- Call ahead to confirm hours during holidays",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 8,
+      "issues": [
+        "Response too long",
+        "Contains emojis (should not)"
+      ],
+      "strengths": [
+        "No errors",
+        "Asks clarifying questions"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "centers in Madinah please",
+    "response": "## 📍 SMSA Service Centers\n\n**Location:** Madinah, SA  \n**Found:** 12 center(s)\n\n| Name | Address | Region | Phone | Hours | Features |\n|------|---------|--------|-------|-------|----------|\n| SMSA MED Oyoon Othman Ibn Afan Branch | KSA 42223 - MED Oyoon Othman Ibn Afan Rd. | Western | 920009999 | 8:00-23:00 | [📍 Map](https://maps.google.com/?q=24.4893546,39.60298026) |\n| SMSA MED Bani Harithah Airport Branch | KSA 42222 - MED Bani Harithah Airport Rd. | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.48829102,39.63537825) |\n| SMSA MED Duwaimah Qiba Branch | KSA 42248 - MED Duwaimah Qiba Rd. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=24.4420396,39.61561548) |\n| SMSA MED Sultana Abu Bakr As Siddiq Branch | KSA 42286 - MED Sultana Abu Bakr As Siddiq Rd. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.48723278,39.57648887) |\n| SMSA MED Matar Abdullah Ibn Wadiah Branch | KSA 42332 - MED Matar Abdullah Ibn Wadiah St. | N/A | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=24.53794504,39.69118732) |\n| SMSA MED Aziziyah Pr. Naif Abdulaziz Branch | KSA 42224 - MED Aziziyah Pr. Naif Abdulaziz Rd. | Western | 920009999 | 8:00-22:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.46772359,39.54748821) |\n| SMSA MED King Fahd Khalid Al Quraishi Branch | KSA 42306 - MED King Fahd Khalid Al Quraishi St. | Western | 920009999 | 10:00-15:00, 16:00-19:00 | [📍 Map](https://maps.google.com/?q=24.49640865,39.7068393) |\n| SMSA MED Khalidiyah King Abdullah Branch | KSA 42266 - MED Khalidiyah King Abdullah Rd. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.45540224,39.66845563) |\n| SMSA MED Daheetha Hassan Ibn Abdulaziz Branch | KSA 42319 - MED Daheetha Hassan Ibn Abdulaziz St. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=24.42482641,39.49943682) |\n| SMSA MED Shuran Qiba Branch | KSA 42314 - MED Shuran Qiba Rd. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=24.39832548,39.63381155) |\n| SMSA MED Ranona Abas Ibn Abadah Branch | KSA 42271 - MED Ranona Abas Ibn Abadah Rd. (Hijja) | Western | 920009999 | 9:00-12:00, 16:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.42448149,39.59221694) |\n| SMSA MED Hamra Al Asaad (KFSH) Branch | KSA 42322 - MED Hamra Al Asaad (KFSH) | N/A | 920009999 | 14:00-16:00 | [📍 Map](https://maps.google.com/?q=24.35213846,39.52681714) |\n\n💡 **Tips:**\n- Click 📍 Map to get directions\n- ❄️ Cold Box available for temperature-sensitive items\n- Call ahead to confirm hours during holidays",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 8,
+      "issues": [
+        "Response too long",
+        "Contains emojis (should not)"
+      ],
+      "strengths": [
+        "Contains location info",
+        "No errors",
+        "Asks clarifying questions"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "show Dammam locations",
+    "response": "## 📍 SMSA Service Centers\n\n**Location:** Dammam, SA  \n**Found:** 20 center(s)\n\n| Name | Address | Region | Phone | Hours | Features |\n|------|---------|--------|-------|-------|----------|\n| SMSA DMM Dahia King Fahd Hamad Bn Osama Branch | KSA 43364 - DMM Dahia King Fahd Hamad Bn Osama St. | Eastern | 920009999 | 9:00-12:00, 13:00-18:00 | [📍 Map](https://maps.google.com/?q=26.42176151,50.00305118) |\n| SMSA DMM Fursan Arwa'a Bint Rabea’a Branch | KSA 43357 - DMM Fursan Arwa'a Bint Rabea’a St. | Eastern | 920009999 | 9:00-12:00, 13:00-18:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=26.35637267,49.95828449) |\n| SMSA DMM 2nd Industrial City Pr. Nawaf Branch | KSA 43320 - DMM 2nd Industrial City Pr. Nawaf St. | Eastern | 920009999 | 8:30-12:00, 13:00-17:30 | [📍 Map](https://maps.google.com/?q=26.24543543,49.98183114) |\n| SMSA KBR Rakkah Rawabi King Fahd Branch | KSA 43305 - KBR Rakkah Rawabi King Fahd Rd. | Eastern | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=26.33292153,50.20226757) |\n| SMSA DMM Dammam Natl. Guard Hospital (NGH) Branch | KSA 43339 - DMM Dammam Natl. Guard Hospital (NGH) | N/A | 920009999 | 08:00-16:00 | [📍 Map](https://maps.google.com/?q=26.35709283,50.17709319) |\n| SMSA DMM Amamrah King Saud Branch | KSA 43304 - DMM Amamrah King Saud Rd. | Eastern | 920009999 | 9:00-21:00 | [📍 Map](https://maps.google.com/?q=26.44246344,50.10882179) |\n| SMSA DMM Mazruiyah King Faisal Branch | KSA 43369 - DMM Mazruiyah King Faisal Rd. | Eastern | 920009999 | 9:00-12:00, 13:00-18:00 | [📍 Map](https://maps.google.com/?q=26.43635831,50.12546536) |\n| SMSA DMM Shati Pr. Mohammed Branch | KSA 43360 - DMM Shati Pr. Mohammed St. | Eastern | 920009999 | 10:00-13:00, 14:00-19:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=26.47449931,50.12528289) |\n| SMSA DMM Zuhur Abu Hurairah Branch | KSA 43348 - DMM Zuhur Abu Hurairah St. | Eastern | 920009999 | 10:00-12:00, 13:00-19:00 | [📍 Map](https://maps.google.com/?q=26.45104281,50.09200016) |\n| SMSA DMM Khalidiyah Shamaliyah Dammam Hub Branch | KSA 43324 - DMM Khalidiyah Shamaliyah Dammam Hub | Eastern | 920009999 | 8:00-22:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=26.41425014,50.13648495) |\n| SMSA DMM Ghirnatah King Khalid Branch | KSA 43325 - DMM Ghirnatah King Khalid St. | N/A | 920009999 | 10:00-12:00, 13:00-19:00 | [📍 Map](https://maps.google.com/?q=26.43136978,50.08032809) |\n| SMSA DMM Adamah 18th Branch | KSA 43336 - DMM Adamah 18th St. | Eastern | 920009999 | 10:00-14:00, 15:00-19:00 | [📍 Map](https://maps.google.com/?q=26.4382021,50.09644378) |\n| SMSA DMM Ibn Khaldun King Fahd Branch | KSA 43330 - DMM Ibn Khaldun King Fahd Rd. | Eastern | 920009999 | 10:00-12:00, 13:00-19:00 | [📍 Map](https://maps.google.com/?q=26.42132535,50.09077237) |\n| SMSA DMM Nuzha Othman Bin Afan Branch | KSA 43370 - DMM Nuzha Othman Bin Afan St. | Eastern | 920009999 | 9:00-12:00, 13:00-18:00 | [📍 Map](https://maps.google.com/?q=26.38525303,50.10444992) |\n| SMSA DMM Rawdah Pr. Naif Abdulaziz Branch | KSA 43332 - DMM Rawdah Pr. Naif Abdulaziz Rd. | Eastern | 920009999 | 9:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=26.40227572,50.08516299) |\n| SMSA DMM Abdullah Fouad Pr. Mohd. Fahd Branch | KSA 43319 - DMM Abdullah Fouad Pr. Mohd. Fahd St. | Eastern | 920009999 | 8:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=26.41895955,50.1109375) |\n| SMSA DMM Badr Abu Bakr Siddiq Branch | KSA 43303 - DMM Badr Abu Bakr Siddiq St.(Block 91) | Eastern | 920009999 | 8:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=26.41299996,50.03156281) |\n| SMSA DMM Uhud King Saud Branch | KSA 43345 - DMM Uhud King Saud St. (Al Dakatra) | Eastern | 920009999 | 9:00-12:00, 13:00-18:00 | [📍 Map](https://maps.google.com/?q=26.42539724,50.03521728) |\n| SMSA DMM Nada Imam Muhammad Abdulwahab Branch | KSA 43354 - DMM Nada Imam Muhammad Abdulwahab St. | Eastern | 920009999 | 8:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=26.36579462,50.07495762) |\n| SMSA DMM Faisaliyyah Omar Ibn Khatab Branch | KSA 43341 - DMM Faisaliyyah Omar Ibn Khatab St. | Eastern | 920009999 | 9:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=26.40178752,50.06490628) |\n\n💡 **Tips:**\n- Click 📍 Map to get directions\n- ❄️ Cold Box available for temperature-sensitive items\n- Call ahead to confirm hours during holidays",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 8,
+      "issues": [
+        "Response too long",
+        "Contains emojis (should not)"
+      ],
+      "strengths": [
+        "No errors",
+        "Asks clarifying questions"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "service centers in Riyadh",
+    "response": "## 📍 SMSA Service Centers\n\n**Location:** Riyadh, SA  \n**Found:** 81 center(s)\n\n| Name | Address | Region | Phone | Hours | Features |\n|------|---------|--------|-------|-------|----------|\n| SMSA RUH Sultanah Swaidi Branch | KSA 41112 - RUH Sultanah Swaidi St. | Central | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.59843612,46.68720934) |\n| SMSA RUH Futa Hibatula Khazraji Branch | KSA 41181 - RUH Futa Hibatula Khazraji St.(Batha) | Central | 920009999 | 10:00-14:00, 16:00-20:00 | [📍 Map](https://maps.google.com/?q=24.64257672,46.71514794) |\n| SMSA RUH Mansourah Al Kharj Branch | KSA 41116 - RUH Mansourah Al Kharj Rd. | Central | 920009999 | 09:00-21:00 | [📍 Map](https://maps.google.com/?q=24.6355558,46.6228259) |\n| SMSA RUH Mansourah Muhammad Bin Shuail Branch | KSA 41231 - RUH Mansourah Muhammad Bin Shuail St. | Central | 920009999 | 9:00-21:00 | [📍 Map](https://maps.google.com/?q=24.60774,46.74682) |\n| SMSA RUH Marqab Ghurabi Branch | KSA 41113 - RUH Marqab Ghurabi St. | Central | 920009999 | 9:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.64624912,46.71851269) |\n| SMSA RUH Diriya Imam Saud Bn AAziz Mohd Branch | KSA 41216 - RUH Diriya Imam Saud Bn AAziz Mohd Rd. | Central | 920009999 | 10:00-14:00, 16:00-20:00 | [📍 Map](https://maps.google.com/?q=24.75618003,46.56836288) |\n| SMSA RUH Dhahrat Laban Taif Branch | KSA 41177 - RUH Dhahrat Laban Taif St. (Mega) | Central | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.64012783,46.54179765) |\n| SMSA RUH Dhahrat Laban Shifa Branch | KSA 41153 - RUH Dhahrat Laban Shifa St. | Central | 920009999 | 10:00-14:00, 16:00-20:00 | [📍 Map](https://maps.google.com/?q=24.63248878,46.56452906) |\n| SMSA RUH Mahdiyah Alsail Alkhabeer Branch | KSA 41193 - RUH Mahdiyah Alsail Alkhabeer Rd. | Central | 920009999 | 10:00-14:00, 16:00-20:00 | [📍 Map](https://maps.google.com/?q=24.65997947,46.51972152) |\n| SMSA RUH Malaz Salah Din Ayubi Branch | KSA 41127 - RUH Malaz Salah Din Ayubi Rd. (Siteen) | Central | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.66567805,46.73127831) |\n| SMSA RUH Rabwa Omar Abdulaziz Branch | KSA 41115 - RUH Rabwa Omar Abdulaziz Rd. (Exit-14) | Central | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.69166868,46.76554913) |\n| SMSA RUH Rabwah Ahsa Branch | KSA 41111 - RUH Rabwah Ahsa St. | Central | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.59850588,46.73240854) |\n| SMSA RUH Ishbiliya Imam Abdulah Bn Saud Branch | KSA 41148 - RUH Ishbiliya Imam Abdulah Bn Saud Rd. | Central | 920009999 | 8:00-22:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.79150207,46.76783058) |\n| SMSA RUH Shuhada Khaled Ibn Al Walid Branch | KSA 41227 - RUH Shuhada Khaled Ibn Al Walid St. | Central | 920009999 | 8:00-23:00 | [📍 Map](https://maps.google.com/?q=24.79514474,46.74247) |\n| SMSA RUH Hamra King Abdullah Branch | KSA 41149 - RUH Hamra King Abdullah Rd. | Central | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.767374,46.75584057) |\n| SMSA RUH Qadisiyah Sheikh Jaber Branch | KSA 41156 - RUH Qadisiyah Sheikh Jaber St. | Central | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.81620028,46.80431317) |\n| SMSA RUH Maizilah Janadriyah Branch Branch | KSA 41239 - RUH Maizilah Janadriyah Branch Rd. | N/A | 920009999 | 10:00-14:00, 16:00-20:00 | [📍 Map](https://maps.google.com/?q=24.80286109,46.85395484) |\n| SMSA RUH Nahdah Pr Bandar Ibn Abdulaziz Branch | KSA 41145 - RUH Nahdah Pr Bandar Ibn Abdulaziz St. | Central | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.75936645,46.79466012) |\n| SMSA RUH Nahdah Salman Al Farsi Branch | KSA 41159 - RUH Nahdah Salman Al Farsi St. | Central | 920009999 | 10:00-14:00, 16:00-20:00 | [📍 Map](https://maps.google.com/?q=24.756687,46.81533049) |\n| SMSA RUH Quds P Mohd Bn Faisal Bn Turki Branch | KSA 41219 - RUH Quds P Mohd Bn Faisal Bn Turki Rd. | Central | 920009999 | 9:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.7574508,46.7609357) |\n\n*Showing first 20 of 81 centers*\n\n💡 **Tips:**\n- Click 📍 Map to get directions\n- ❄️ Cold Box available for temperature-sensitive items\n- Call ahead to confirm hours during holidays",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 8,
+      "issues": [
+        "Response too long",
+        "Contains emojis (should not)"
+      ],
+      "strengths": [
+        "Contains location info",
+        "No errors",
+        "Asks clarifying questions"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "what about Jeddah?",
+    "response": "## 📍 SMSA Service Centers\n\n**Location:** Jeddah, SA  \n**Found:** 44 center(s)\n\n| Name | Address | Region | Phone | Hours | Features |\n|------|---------|--------|-------|-------|----------|\n| SMSA JED Baghdadiyah Gharbiah Hail Branch | KSA 42206 - JED Baghdadiyah Gharbiah Hail St. | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.49958888,39.18075631) |\n| SMSA JED Fayha Bakhashab Branch | KSA 42323 - JED Fayha Bakhashab St. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=21.48549693,39.21859408) |\n| SMSA JED Qiwayzah Jack Branch | KSA 42270 - JED Qiwayzah Jack Rd. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.4990943,39.27765455) |\n| SMSA JED Tayseer Abu Buraidah Al Ashari Branch | KSA 42242 - JED Tayseer Abu Buraidah Al Ashari St. | N/A | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=21.54987649,39.28290888) |\n| SMSA JED Bani Malik Falastin Branch | KSA 42212 - JED Bani Malik Falastin St. | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.53467393,39.20884814) |\n| SMSA JED Naseem Bani Malek Branch | KSA 42241 - JED Naseem Bani Malek St. | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.52775093,39.23077686) |\n| SMSA JED Ruwais Qadat Al Fikr Branch | KSA 42204 - JED Ruwais Qadat Al Fikr Rd. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=21.52646075,39.17788989) |\n| SMSA JED Sharafiyah King Abdullah Branch | KSA 42215 - JED Sharafiyah King Abdullah Rd. | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.51144531,39.18833639) |\n| SMSA JED Wurood Prince Majed Branch | KSA 42269 - JED Wurood Prince Majed Rd. (Mega) | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.51743141,39.21382653) |\n| SMSA JED Waha Mohd Bin Soliman Albassam Branch | KSA 42311 - JED Waha Mohd Bin Soliman Albassam St. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=21.55066449,39.23811549) |\n| SMSA JED Aziziyah King Fahd Branch | KSA 42236 - JED Aziziyah King Fahd Rd. | Western | 920009999 | 9:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.55140545,39.18948219) |\n| SMSA JED Aziziyah Prince Majed Branch | KSA 42265 - JED Aziziyah Prince Majed Rd. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=21.55621421,39.20376561) |\n| SMSA JED Faisaliyyah Makarunah Branch | KSA 42310 - JED Faisaliyyah Makarunah Rd. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=21.57719916,39.18904948) |\n| SMSA JED Bawady King Fahd Branch | KSA 42205 - JED Bawady King Fahd Rd. | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.59814729,39.1732022) |\n| SMSA JED Bryman Mohammed Bin Suraihid Branch | KSA 42324 - JED Bryman Mohammed Bin Suraihid St. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=21.65468968,39.24881216) |\n| SMSA JED Rayaan Habeeb Bin Awf Al Abdi Branch | KSA 42325 - JED Rayaan Habeeb Bin Awf Al Abdi St. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=21.70147658,39.21127297) |\n| SMSA JED Salehiyah Yasir Bn Amr AlKanany St Branch | KSA 42294 - JED Salehiyah Yasir Bn Amr AlKanany St | Western | 920009999 | 9:00-12:00, 16:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.76594807,39.20323137) |\n| SMSA JED Hamadaniyah Haramain Branch | KSA 42232 - JED Hamadaniyah Haramain Rd. | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.74339231,39.19090536) |\n| SMSA JED Mukatat Ryad Ahmed Mki Bn Atar Branch | KSA 42316 - JED Mukatat Ryad Ahmed Mki Bn Atar St. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=21.84976716,39.19938684) |\n| SMSA JED Obhur Shamaliya Aabir Qarath Branch | KSA 42279 - JED Obhur Shamaliya Aabir Qarath St. | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.7571318,39.1197829) |\n\n*Showing first 20 of 44 centers*\n\n💡 **Tips:**\n- Click 📍 Map to get directions\n- ❄️ Cold Box available for temperature-sensitive items\n- Call ahead to confirm hours during holidays",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 8,
+      "issues": [
+        "Response too long",
+        "Contains emojis (should not)"
+      ],
+      "strengths": [
+        "No errors",
+        "Asks clarifying questions"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "centers in Makkah",
+    "response": "## 📍 SMSA Service Centers\n\n**Location:** Makkah, SA  \n**Found:** 20 center(s)\n\n| Name | Address | Region | Phone | Hours | Features |\n|------|---------|--------|-------|-------|----------|\n| SMSA MAK Nuzha Old Makkah-Jeddah Branch | KSA 42220 - MAK Nuzha Old Makkah-Jeddah Rd. | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.43779748,39.79408544) |\n| SMSA MAK Uttaybiyah Jizair Branch | KSA 42275 - MAK Uttaybiyah Jizair St. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=21.44181578,39.81890929) |\n| SMSA MAK Aziziyah Masjid Haram Branch | KSA 42221 - MAK Aziziyah Masjid Haram St. | Western | 920009999 | 9:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.41352982,39.86367462) |\n| SMSA MAK Rusayfah Pr. Nasser Ibn Masoud Branch | KSA 42253 - MAK Rusayfah Pr. Nasser Ibn Masoud St. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.4104055,39.79223947) |\n| SMSA MAK Awali Ibrahim Al Juffali Branch | KSA 42246 - MAK Awali Ibrahim Al Juffali St. | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.35658998,39.88603613) |\n| SMSA MAK Zaidi Pr. Naif Abdulaziz Branch | KSA 42289 - MAK Zaidi Pr. Naif Abdulaziz Rd. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.40104776,39.70802872) |\n| SMSA MAK Kakiyyah Third Ring Branch | KSA 42276 - MAK Kakiyyah Third Ring Rd. (Mega) | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.38927971,39.81402871) |\n| SMSA MAK Batha Quraish Qadi Branch | KSA 42293 - MAK Batha Quraish Qadi Rd. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.35728865,39.83077186) |\n| SMSA MAK Shawqiya Dr Abdul Qadir Koshak Branch | KSA 42254 - MAK Shawqiya Dr Abdul Qadir Koshak St. | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.37644544,39.78791414) |\n| SMSA MAK Waly Ahd Lith Branch | KSA 42298 - MAK Waly Ahd Lith Rd. | Western | 920009999 | 9:00-12:30, 16:30-21:00 | [📍 Map](https://maps.google.com/?q=21.34099118,39.69388319) |\n| SMSA MAK Akishiya Al Lith Branch | KSA 42330 - MAK Akishiya Al Lith Rd. | N/A | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=21.35194516,39.7843058) |\n| SMSA MAK Shara'ei Muhandes Umar Qadi Branch | KSA 42262 - MAK Shara'ei Muhandes Umar Qadi St. | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.47307185,39.94032246) |\n| SMSA MAK Rashidiyyah Bilal Ibn Duwaim Branch | KSA 42331 - MAK Rashidiyyah Bilal Ibn Duwaim St. | N/A | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=21.4597578,39.96280845) |\n| SMSA MAK Rashidiyyah Arafat Ash Sharaya Branch | KSA 42243 - MAK Rashidiyyah Arafat Ash Sharaya Rd. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=21.48445049,39.99831107) |\n| SMSA MAK Shariah King Faisal Branch | KSA 42299 - MAK Shariah King Faisal Rd. | Western | 920009999 | 9:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.4882459,39.94484019) |\n| SMSA MAK Khansaa Al Hajj Branch | KSA 42312 - MAK Khansaa Al Hajj St. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.45007548,39.84868568) |\n| SMSA MAK Jabl An Nur King Faisal Branch | KSA 42245 - MAK Jabl An Nur King Faisal Rd. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.4467203,39.8611499) |\n| SMSA MAK Umrah Madinah Munawarrah Branch | KSA 42219 - MAK Umrah Madinah Munawarrah Rd. | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.4918805,39.79390833) |\n| SMSA MAK Nawariyah Madinah Branch | KSA 42304 - MAK Nawariyah Madinah Rd. | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.55027221,39.77589365) |\n| SMSA MAK Fayha Alkhahif Al Anbari Branch | KSA 42234 - MAK Fayha Alkhahif Al Anbari St. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=21.45658138,39.76257279) |\n\n💡 **Tips:**\n- Click 📍 Map to get directions\n- ❄️ Cold Box available for temperature-sensitive items\n- Call ahead to confirm hours during holidays",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 8,
+      "issues": [
+        "Response too long",
+        "Contains emojis (should not)"
+      ],
+      "strengths": [
+        "Contains location info",
+        "No errors",
+        "Asks clarifying questions"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "how about Madinah?",
+    "response": "## 📍 SMSA Service Centers\n\n**Location:** Madinah, SA  \n**Found:** 12 center(s)\n\n| Name | Address | Region | Phone | Hours | Features |\n|------|---------|--------|-------|-------|----------|\n| SMSA MED Oyoon Othman Ibn Afan Branch | KSA 42223 - MED Oyoon Othman Ibn Afan Rd. | Western | 920009999 | 8:00-23:00 | [📍 Map](https://maps.google.com/?q=24.4893546,39.60298026) |\n| SMSA MED Bani Harithah Airport Branch | KSA 42222 - MED Bani Harithah Airport Rd. | Western | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.48829102,39.63537825) |\n| SMSA MED Duwaimah Qiba Branch | KSA 42248 - MED Duwaimah Qiba Rd. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=24.4420396,39.61561548) |\n| SMSA MED Sultana Abu Bakr As Siddiq Branch | KSA 42286 - MED Sultana Abu Bakr As Siddiq Rd. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.48723278,39.57648887) |\n| SMSA MED Matar Abdullah Ibn Wadiah Branch | KSA 42332 - MED Matar Abdullah Ibn Wadiah St. | N/A | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=24.53794504,39.69118732) |\n| SMSA MED Aziziyah Pr. Naif Abdulaziz Branch | KSA 42224 - MED Aziziyah Pr. Naif Abdulaziz Rd. | Western | 920009999 | 8:00-22:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.46772359,39.54748821) |\n| SMSA MED King Fahd Khalid Al Quraishi Branch | KSA 42306 - MED King Fahd Khalid Al Quraishi St. | Western | 920009999 | 10:00-15:00, 16:00-19:00 | [📍 Map](https://maps.google.com/?q=24.49640865,39.7068393) |\n| SMSA MED Khalidiyah King Abdullah Branch | KSA 42266 - MED Khalidiyah King Abdullah Rd. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.45540224,39.66845563) |\n| SMSA MED Daheetha Hassan Ibn Abdulaziz Branch | KSA 42319 - MED Daheetha Hassan Ibn Abdulaziz St. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=24.42482641,39.49943682) |\n| SMSA MED Shuran Qiba Branch | KSA 42314 - MED Shuran Qiba Rd. | Western | 920009999 | 9:00-12:00, 16:00-21:00 | [📍 Map](https://maps.google.com/?q=24.39832548,39.63381155) |\n| SMSA MED Ranona Abas Ibn Abadah Branch | KSA 42271 - MED Ranona Abas Ibn Abadah Rd. (Hijja) | Western | 920009999 | 9:00-12:00, 16:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=24.42448149,39.59221694) |\n| SMSA MED Hamra Al Asaad (KFSH) Branch | KSA 42322 - MED Hamra Al Asaad (KFSH) | N/A | 920009999 | 14:00-16:00 | [📍 Map](https://maps.google.com/?q=24.35213846,39.52681714) |\n\n💡 **Tips:**\n- Click 📍 Map to get directions\n- ❄️ Cold Box available for temperature-sensitive items\n- Call ahead to confirm hours during holidays",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 8,
+      "issues": [
+        "Response too long",
+        "Contains emojis (should not)"
+      ],
+      "strengths": [
+        "No errors",
+        "Asks clarifying questions"
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "query": "offices in Dammam",
+    "response": "## 📍 SMSA Service Centers\n\n**Location:** Dammam, SA  \n**Found:** 20 center(s)\n\n| Name | Address | Region | Phone | Hours | Features |\n|------|---------|--------|-------|-------|----------|\n| SMSA DMM Dahia King Fahd Hamad Bn Osama Branch | KSA 43364 - DMM Dahia King Fahd Hamad Bn Osama St. | Eastern | 920009999 | 9:00-12:00, 13:00-18:00 | [📍 Map](https://maps.google.com/?q=26.42176151,50.00305118) |\n| SMSA DMM Fursan Arwa'a Bint Rabea’a Branch | KSA 43357 - DMM Fursan Arwa'a Bint Rabea’a St. | Eastern | 920009999 | 9:00-12:00, 13:00-18:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=26.35637267,49.95828449) |\n| SMSA DMM 2nd Industrial City Pr. Nawaf Branch | KSA 43320 - DMM 2nd Industrial City Pr. Nawaf St. | Eastern | 920009999 | 8:30-12:00, 13:00-17:30 | [📍 Map](https://maps.google.com/?q=26.24543543,49.98183114) |\n| SMSA KBR Rakkah Rawabi King Fahd Branch | KSA 43305 - KBR Rakkah Rawabi King Fahd Rd. | Eastern | 920009999 | 8:00-23:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=26.33292153,50.20226757) |\n| SMSA DMM Dammam Natl. Guard Hospital (NGH) Branch | KSA 43339 - DMM Dammam Natl. Guard Hospital (NGH) | N/A | 920009999 | 08:00-16:00 | [📍 Map](https://maps.google.com/?q=26.35709283,50.17709319) |\n| SMSA DMM Amamrah King Saud Branch | KSA 43304 - DMM Amamrah King Saud Rd. | Eastern | 920009999 | 9:00-21:00 | [📍 Map](https://maps.google.com/?q=26.44246344,50.10882179) |\n| SMSA DMM Mazruiyah King Faisal Branch | KSA 43369 - DMM Mazruiyah King Faisal Rd. | Eastern | 920009999 | 9:00-12:00, 13:00-18:00 | [📍 Map](https://maps.google.com/?q=26.43635831,50.12546536) |\n| SMSA DMM Shati Pr. Mohammed Branch | KSA 43360 - DMM Shati Pr. Mohammed St. | Eastern | 920009999 | 10:00-13:00, 14:00-19:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=26.47449931,50.12528289) |\n| SMSA DMM Zuhur Abu Hurairah Branch | KSA 43348 - DMM Zuhur Abu Hurairah St. | Eastern | 920009999 | 10:00-12:00, 13:00-19:00 | [📍 Map](https://maps.google.com/?q=26.45104281,50.09200016) |\n| SMSA DMM Khalidiyah Shamaliyah Dammam Hub Branch | KSA 43324 - DMM Khalidiyah Shamaliyah Dammam Hub | Eastern | 920009999 | 8:00-22:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=26.41425014,50.13648495) |\n| SMSA DMM Ghirnatah King Khalid Branch | KSA 43325 - DMM Ghirnatah King Khalid St. | N/A | 920009999 | 10:00-12:00, 13:00-19:00 | [📍 Map](https://maps.google.com/?q=26.43136978,50.08032809) |\n| SMSA DMM Adamah 18th Branch | KSA 43336 - DMM Adamah 18th St. | Eastern | 920009999 | 10:00-14:00, 15:00-19:00 | [📍 Map](https://maps.google.com/?q=26.4382021,50.09644378) |\n| SMSA DMM Ibn Khaldun King Fahd Branch | KSA 43330 - DMM Ibn Khaldun King Fahd Rd. | Eastern | 920009999 | 10:00-12:00, 13:00-19:00 | [📍 Map](https://maps.google.com/?q=26.42132535,50.09077237) |\n| SMSA DMM Nuzha Othman Bin Afan Branch | KSA 43370 - DMM Nuzha Othman Bin Afan St. | Eastern | 920009999 | 9:00-12:00, 13:00-18:00 | [📍 Map](https://maps.google.com/?q=26.38525303,50.10444992) |\n| SMSA DMM Rawdah Pr. Naif Abdulaziz Branch | KSA 43332 - DMM Rawdah Pr. Naif Abdulaziz Rd. | Eastern | 920009999 | 9:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=26.40227572,50.08516299) |\n| SMSA DMM Abdullah Fouad Pr. Mohd. Fahd Branch | KSA 43319 - DMM Abdullah Fouad Pr. Mohd. Fahd St. | Eastern | 920009999 | 8:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=26.41895955,50.1109375) |\n| SMSA DMM Badr Abu Bakr Siddiq Branch | KSA 43303 - DMM Badr Abu Bakr Siddiq St.(Block 91) | Eastern | 920009999 | 8:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=26.41299996,50.03156281) |\n| SMSA DMM Uhud King Saud Branch | KSA 43345 - DMM Uhud King Saud St. (Al Dakatra) | Eastern | 920009999 | 9:00-12:00, 13:00-18:00 | [📍 Map](https://maps.google.com/?q=26.42539724,50.03521728) |\n| SMSA DMM Nada Imam Muhammad Abdulwahab Branch | KSA 43354 - DMM Nada Imam Muhammad Abdulwahab St. | Eastern | 920009999 | 8:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=26.36579462,50.07495762) |\n| SMSA DMM Faisaliyyah Omar Ibn Khatab Branch | KSA 43341 - DMM Faisaliyyah Omar Ibn Khatab St. | Eastern | 920009999 | 9:00-21:00 | ❄️ Cold Box [📍 Map](https://maps.google.com/?q=26.40178752,50.06490628) |\n\n💡 **Tips:**\n- Click 📍 Map to get directions\n- ❄️ Cold Box available for temperature-sensitive items\n- Call ahead to confirm hours during holidays",
+    "conversation_id": null,
+    "evaluation": {
+      "score": 8,
+      "issues": [
+        "Response too long",
+        "Contains emojis (should not)"
+      ],
+      "strengths": [
+        "Contains location info",
+        "No errors",
+        "Asks clarifying questions"
+      ]
+    },
+    "status": "success"
+  }
+]

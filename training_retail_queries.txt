@@ -1,0 +1,61 @@
+# RETAIL/SERVICE CENTERS AGENT - 50 TRAINING QUERIES
+
+## Basic Center Queries (10)
+1. service centers in Riyadh
+2. find SMSA offices in Jeddah
+3. where are centers in Makkah
+4. show me locations in Madinah
+5. service centers in Dammam
+6. SMSA branches in Riyadh
+7. find offices near me in Jeddah
+8. where can I drop off in Makkah
+9. centers in Madinah please
+10. show Dammam locations
+
+## Follow-up Location Changes (10)
+11. service centers in Riyadh → what about Jeddah?
+12. centers in Makkah → how about Madinah?
+13. offices in Dammam → what about Riyadh?
+14. centers in Jeddah → and in Makkah?
+15. locations in Madinah → what about Dammam?
+16. centers in Riyadh → show me Jeddah
+17. offices in Makkah → what about Riyadh?
+18. centers in Dammam → and Madinah?
+19. locations in Jeddah → how about Makkah?
+20. centers in Madinah → what about Riyadh?
+
+## Context-based Queries (10)
+21. rates Riyadh to Jeddah 5kg → service centers there?
+22. rates Makkah to Madinah 10kg → centers in origin?
+23. rates Riyadh to Dammam 15kg → where can I drop off?
+24. rates Jeddah to Riyadh 8kg → centers near me?
+25. rates Madinah to Makkah 12kg → offices there?
+26. track 227047923763 → nearest center?
+27. track 456799871238 → where can I pick it up?
+28. rates Riyadh to Jeddah 5kg → centers in Riyadh?
+29. rates Makkah to Madinah 10kg → centers in Madinah?
+30. track 123456789012 → service centers nearby?
+
+## Incomplete/Vague Queries (10)
+31. service centers in Riyadh → centers?
+32. centers in Makkah → there?
+33. offices in Dammam → near me?
+34. centers in Jeddah → locations?
+35. service centers in Madinah → where?
+36. find centers
+37. show me offices
+38. where are you located
+39. nearest branch
+40. SMSA locations
+
+## Specific Needs (10)
+41. service centers in Riyadh with cold storage
+42. 24 hour centers in Jeddah
+43. centers in Makkah open on Friday
+44. offices in Madinah with parking
+45. centers in Dammam near airport
+46. service centers in Riyadh city center
+47. centers in Jeddah with customer service
+48. offices in Makkah for international shipping
+49. centers in Madinah for pickup
+50. service centers in Dammam with packaging
